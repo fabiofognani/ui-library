@@ -84,7 +84,7 @@ export const WithImage: Story = {
 };
 
 export const HoverState: Story = {
-  decorators: [...WithImage.decorators],
+  decorators: WithImage.decorators,
   args: WithImage.args,
   parameters: {
     pseudo: {

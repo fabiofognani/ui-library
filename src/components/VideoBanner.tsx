@@ -3,7 +3,9 @@ import styled, { css } from "styled-components";
 
 import { borderRadius } from "../styles";
 import { mqUntil } from "../styles/media-queries";
-import { Text, Title, VideoPlayer, VideoPlayerProps } from "./";
+import { VideoPlayer, VideoPlayerProps } from "./VideoPlayer";
+import { Title } from "./Title";
+import { Text } from "./Text";
 
 export interface VideoBannerProps {
   /**

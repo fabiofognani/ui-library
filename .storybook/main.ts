@@ -9,7 +9,6 @@ const config: StorybookConfig = {
     "@storybook/addon-essentials",
     "@storybook/addon-interactions",
     "@storybook/addon-coverage",
-    // "@storybook/preset-create-react-app",
     "storybook-addon-pseudo-states",
   ],
   framework: {
@@ -31,4 +30,5 @@ const config: StorybookConfig = {
     autodocs: "tag",
   },
 };
+
 module.exports = config;

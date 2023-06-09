@@ -13,6 +13,9 @@ import PackageJSON from "./package.json" assert { type: "json" };
 export default [
   {
     input: "src/index.ts",
+    external: [
+      "styled-components"
+    ],
     output: [
       {
         file: PackageJSON.main,

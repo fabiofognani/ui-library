@@ -18,4 +18,3 @@ initStoryshots({
   storyKindRegex: /^((?!.*?Pages\/).)*$/,
   snapshotSerializers: [styleSheetSerializer],
 });
- 

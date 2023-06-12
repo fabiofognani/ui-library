@@ -1,0 +1,12 @@
+{
+  "extends": ["react-app", "react-app/jest", "plugin:react-hooks/recommended"],
+  "overrides": [
+    {
+      "files": ["**/*.stories.*"],
+      "rules": {
+        "import/no-anonymous-default-export": "off"
+      }
+    }
+  ],
+  "ignorePatterns": ["!.storybook"]
+}

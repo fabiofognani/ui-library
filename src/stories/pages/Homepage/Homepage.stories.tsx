@@ -7,11 +7,11 @@ import {
   PartnerCarouselProps,
   StripThreeColsProps,
 } from "../../../components";
-import { Default as Footer } from "../../Footer.stories";
-import { Transparent as Header } from "../../Header.stories";
-import { Default as HeroCarousel } from "../../HeroCarousel.stories";
-import { Default as PartnerCarousel } from "../../PartnerCarousel.stories";
-import { MainItemLarge as StripThreeCols } from "../../StripThreeCols.stories";
+import { Default as Footer } from "../../../components/Footer/Footer.stories";
+import { Transparent as Header } from "../../../components/Header/Header.stories";
+import { Default as HeroCarousel } from "../../../components/HeroCarousel/HeroCarousel.stories";
+import { Default as PartnerCarousel } from "../../../components/PartnerCarousel/PartnerCarousel.stories";
+import { MainItemLarge as StripThreeCols } from "../../../components/StripThreeCols/StripThreeCols.stories";
 import Homepage from "./Homepage";
 
 export default {

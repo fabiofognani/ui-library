@@ -4,7 +4,7 @@ import styled, { css } from "styled-components";
 import { mqUntil } from "../../styles/media-queries";
 import { Icon } from "../Icon";
 import { Text } from "../Text";
-import { NavIconItemProps } from "./headerProps";
+import { NavIconItemProps } from "./types";
 
 const NavIconItemWrapper = styled.div<{ isMobileVisibile?: boolean }>`
   display: flex;

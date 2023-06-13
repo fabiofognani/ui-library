@@ -5,4 +5,4 @@ export * from "./theme-type";
 export * from "./hsd-theme";
 export * from "./biesse-theme";
 
-export * from './theme-provider';
+export * from "./theme-provider";

@@ -4,7 +4,7 @@ import styled, { css } from "styled-components";
 import { mqUntil } from "../../styles/media-queries";
 import { Icon } from "../Icon";
 import { Text } from "../Text";
-import { HeaderProps } from "./headerProps";
+import { HeaderProps } from "./types";
 import { NavIconItem } from "./NavIconItem";
 
 const HeaderRoot = styled.div<Pick<HeaderProps, "variant">>`

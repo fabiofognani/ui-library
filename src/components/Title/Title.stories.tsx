@@ -1,7 +1,7 @@
 import { Meta, StoryObj } from "@storybook/react";
+import { BackgroundDecorator } from "~stories/decorators";
 
 import { Title } from "./Title";
-import { BackgroundDecorator } from "../../stories/decorators";
 
 const meta: Meta<typeof Title> = {
   title: "Typography/Title",

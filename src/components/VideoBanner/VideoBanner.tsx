@@ -1,11 +1,9 @@
 import { FC, PropsWithChildren } from "react";
 import styled, { css } from "styled-components";
-
-import { borderRadius } from "../../styles";
-import { mqUntil } from "../../styles/media-queries";
-import { VideoPlayer, VideoPlayerProps } from "../VideoPlayer";
-import { Title } from "../Title";
-import { Text } from "../Text";
+import { Text } from "~components/Text";
+import { Title } from "~components/Title";
+import { VideoPlayer, VideoPlayerProps } from "~components/VideoPlayer";
+import { borderRadius, mqUntil } from "~styles";
 
 export interface VideoBannerProps {
   /**

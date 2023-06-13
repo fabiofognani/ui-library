@@ -1,5 +1,6 @@
 import { Meta, StoryObj } from "@storybook/react";
 import { useState } from "react";
+
 import { Pagination, PaginationProps } from "./Pagination";
 
 const PaginationWrapper = ({ currentPage, ...props }: PaginationProps) => {

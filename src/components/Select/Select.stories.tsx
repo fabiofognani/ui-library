@@ -1,9 +1,9 @@
 import { Meta, StoryObj } from "@storybook/react";
 import { userEvent, within } from "@storybook/testing-library";
+import { BackgroundDecorator } from "~stories/decorators";
+import { sleep } from "~stories/utils/sleep";
 
 import { Select } from "./Select";
-import { BackgroundDecorator } from "../../stories/decorators";
-import { sleep } from "../../stories/utils/sleep";
 
 export default {
   title: "Inputs/Select",

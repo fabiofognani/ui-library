@@ -1,6 +1,7 @@
-import { DefaultTheme, ThemeProvider } from "styled-components";
-import { hsdTheme } from "./hsd-theme";
 import { FC, PropsWithChildren } from "react";
+import { DefaultTheme, ThemeProvider } from "styled-components";
+
+import { hsdTheme } from "./hsd-theme";
 
 export interface BiesseThemeProviderProps {
   theme?: DefaultTheme;

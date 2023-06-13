@@ -1,8 +1,8 @@
 import { Meta, StoryObj } from "@storybook/react";
+import { Logo } from "~components/Logo";
 
 import { Header } from "./Header";
 import { HeaderProps } from "./types";
-import { Logo } from "../Logo";
 
 export default {
   title: "Layout/Header",

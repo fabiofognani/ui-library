@@ -1,6 +1,5 @@
 import styled, { css } from "styled-components";
-
-import { mqUntil } from "../../styles";
+import { mqUntil } from "~styles";
 
 export const TextContainer = styled.div`
   position: absolute;

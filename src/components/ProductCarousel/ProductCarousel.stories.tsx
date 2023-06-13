@@ -1,13 +1,13 @@
 import { Meta, StoryObj } from "@storybook/react";
 import { FC } from "react";
 import styled, { css } from "styled-components";
+import { Button } from "~components/Button";
+import { Tag } from "~components/Tag";
+import { Text } from "~components/Text";
+import { Title } from "~components/Title";
+import { mqUntil } from "~styles/media-queries";
 
-import { mqUntil } from "../../styles/media-queries";
 import { ProductCarousel } from "./ProductCarousel";
-import { Title } from "../Title";
-import { Button } from "../Button";
-import { Text } from "../Text";
-import { Tag } from "../Tag";
 
 type SampleProductTag = "stone" | "metal" | "glass" | "wood" | "composite";
 

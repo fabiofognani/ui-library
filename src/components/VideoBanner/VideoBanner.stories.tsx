@@ -1,6 +1,5 @@
 import { Meta, StoryObj } from "@storybook/react";
-
-import { VideoBanner } from "..";
+import { VideoBanner } from "~components/VideoBanner";
 
 export default {
   title: "Slideshow/VideoBanner",

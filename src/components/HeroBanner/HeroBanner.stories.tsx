@@ -1,6 +1,8 @@
 import { Meta, StoryObj } from "@storybook/react";
+import { Breadcrumb } from "~components/Breadcrumb";
+import { Button } from "~components/Button";
 
-import { Breadcrumb, Button, HeroBanner } from "..";
+import { HeroBanner } from "./HeroBanner";
 
 export default {
   title: "Slideshow/HeroBanner",

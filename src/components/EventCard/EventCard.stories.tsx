@@ -1,9 +1,9 @@
 import { Meta, StoryObj } from "@storybook/react";
 import dayjs from "dayjs";
 import "dayjs/locale/it";
+import { Button } from "~components/Button";
 
 import { EventCard } from "./EventCard";
-import { Button } from "../Button";
 
 export default {
   title: "Cards/EventCard",

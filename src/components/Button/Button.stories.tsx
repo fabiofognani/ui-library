@@ -1,8 +1,8 @@
 import { Meta, StoryObj } from "@storybook/react";
 import { userEvent, within } from "@storybook/testing-library";
+import { BackgroundDecorator } from "~stories/decorators";
 
 import { Button } from "./Button";
-import { BackgroundDecorator } from "../../stories/decorators";
 
 const meta: Meta<typeof Button> = {
   title: "Buttons/Button",

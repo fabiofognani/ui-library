@@ -1,9 +1,8 @@
 import { FC, PropsWithChildren } from "react";
 import styled, { css } from "styled-components";
-
-import { borderRadius, mqUntil } from "../../styles";
-import { Text } from "../Text";
-import { Title } from "../Title";
+import { Text } from "~components/Text";
+import { Title } from "~components/Title";
+import { borderRadius, mqUntil } from "~styles";
 
 export type HeroBannerProps = {
   /**

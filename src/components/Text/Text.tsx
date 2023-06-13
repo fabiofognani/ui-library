@@ -1,8 +1,7 @@
 import { CSSProperties, FC, PropsWithChildren } from "react";
 import styled, { css } from "styled-components";
-
-import { mqUntil } from "../../styles/media-queries";
-import { BiesseTheme } from "../../themes";
+import { mqUntil } from "~styles/media-queries";
+import { BiesseTheme } from "~themes";
 
 export type TextProps = {
   /**

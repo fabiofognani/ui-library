@@ -1,8 +1,8 @@
 import React, { FC } from "react";
 import styled from "styled-components";
+import { Text } from "~components/Text";
 
 import { Icon } from "../Icon";
-import { Text } from "../Text";
 
 export type BreadcrumbItemData = {
   label: string;

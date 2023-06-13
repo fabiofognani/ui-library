@@ -12,9 +12,8 @@ import {
 import { AnimatePresence, motion } from "framer-motion";
 import React, { PropsWithChildren, useEffect, useState } from "react";
 import styled, { css } from "styled-components";
-
-import { mqUntil } from "../../styles";
-import { IconButton } from "../IconButton";
+import { IconButton } from "~components/IconButton";
+import { mqUntil } from "~styles";
 
 export type ModalProps = {
   className?: string;

@@ -1,8 +1,8 @@
 import { Meta, StoryObj } from "@storybook/react";
 import { userEvent, within } from "@storybook/testing-library";
+import { BackgroundDecorator } from "~stories/decorators";
 
 import { Checkbox } from "./Checkbox";
-import { BackgroundDecorator } from "../../stories/decorators";
 
 const meta: Meta<typeof Checkbox> = {
   title: "Inputs/Checkbox",

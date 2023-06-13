@@ -1,9 +1,9 @@
 import { AnimatePresence } from "framer-motion";
 import styled, { css } from "styled-components";
+import { Title } from "~components/Title";
+import { mqUntil } from "~styles/media-queries";
+import { getKeys } from "~utils/getKeys";
 
-import { mqUntil } from "../../styles/media-queries";
-import { getKeys } from "../../utils/getKeys";
-import { Title } from "../Title";
 import { BackgroundStrip } from "./BackgroundStrip";
 import { ControlButton } from "./ControlButton";
 import { ItemDetail } from "./ItemDetail";

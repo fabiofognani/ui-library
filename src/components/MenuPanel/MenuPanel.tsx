@@ -5,7 +5,7 @@ import { IconButton } from "../IconButton";
 import { Text } from "../Text";
 import { MenuDivider } from "./MenuDivider";
 import { MenuItem } from "./MenuItem";
-import { MenuPanelProps } from "./menuPanelProps";
+import { MenuPanelProps } from "./types";
 
 const Panel = styled.div<Pick<MenuPanelProps, "variant" | "width">>`
   background-color: ${({ variant, theme }) => {

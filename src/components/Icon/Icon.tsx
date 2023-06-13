@@ -1,7 +1,7 @@
 import { FC } from "react";
 import styled, { css } from "styled-components";
+import { BiesseTheme } from "~themes";
 
-import { BiesseTheme } from "../../themes";
 import iconsMap from "./icons-map";
 
 export type IconName = keyof typeof iconsMap;

@@ -1,7 +1,7 @@
 import { FC } from "react";
 import styled from "styled-components";
+import { Icon, IconName } from "~components/Icon";
 
-import { Icon, IconName } from "../Icon/Icon";
 import { IconTab } from "./IconTab";
 
 interface TabData {

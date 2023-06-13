@@ -1,4 +1,4 @@
-import { IconName } from "../Icon";
+import { IconName } from "~components/Icon";
 
 export interface NavLink {
   label: string;

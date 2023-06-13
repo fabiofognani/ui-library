@@ -1,7 +1,7 @@
 import { FC } from "react";
 import styled, { css } from "styled-components";
+import { mqUntil } from "~styles";
 
-import { mqUntil } from "../../styles";
 import { Tab } from "./Tab";
 
 interface TabData {

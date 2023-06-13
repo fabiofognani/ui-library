@@ -1,9 +1,8 @@
 import { FC, PropsWithChildren } from "react";
 import styled, { css } from "styled-components";
-
-import { BiesseTheme } from "../../themes";
-import { Icon, IconName } from "../Icon";
-import { Text } from "../Text";
+import { Icon, IconName } from "~components/Icon";
+import { Text } from "~components/Text";
+import { BiesseTheme } from "~themes";
 
 export interface TagProps {
   /**

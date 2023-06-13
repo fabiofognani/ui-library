@@ -1,6 +1,6 @@
 import { Meta, StoryObj } from "@storybook/react";
+import { BackgroundDecorator } from "~stories/decorators";
 
-import { BackgroundDecorator } from "../../stories/decorators";
 import { Logo } from "./Logo";
 
 export default {

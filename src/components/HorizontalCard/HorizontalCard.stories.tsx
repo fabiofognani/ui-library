@@ -1,6 +1,7 @@
 import { Meta, StoryObj } from "@storybook/react";
+import { Button } from "~components/Button";
+import { Icon } from "~components/Icon";
 
-import { Button, Icon } from "..";
 import { HorizontalCard } from "./HorizontalCard";
 
 export default {

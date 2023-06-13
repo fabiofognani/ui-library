@@ -1,6 +1,7 @@
 import { Meta, StoryObj } from "@storybook/react";
+import { Button } from "~components/Button";
 
-import { Button, IconCard } from "..";
+import { IconCard } from "./IconCard";
 
 export default {
   title: "Cards/IconCard",

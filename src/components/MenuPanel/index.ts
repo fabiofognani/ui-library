@@ -1,2 +1,2 @@
 export * from "./MenuPanel";
-export * from "./menuPanelProps";
+export * from "./types";

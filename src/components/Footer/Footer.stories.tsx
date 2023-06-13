@@ -1,8 +1,8 @@
 import { Meta, StoryObj } from "@storybook/react";
+import { Logo } from "~components/Logo";
+import { Text } from "~components/Text";
 
 import { Footer } from "./Footer";
-import { Logo } from "../Logo";
-import { Text } from "../Text";
 
 export default {
   title: "Layout/Footer",

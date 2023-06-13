@@ -1,9 +1,8 @@
 import React from "react";
 import { FC } from "react";
 import styled, { css } from "styled-components";
-
-import { mqUntil } from "../../styles";
-import { Text } from "../Text";
+import { Text } from "~components/Text";
+import { mqUntil } from "~styles";
 
 export type ExtraInfoProps = {
   title: string;

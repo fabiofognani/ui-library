@@ -1,7 +1,6 @@
 import React, { FC } from "react";
 import styled from "styled-components";
-
-import { IconButton } from "../IconButton";
+import { IconButton } from "~components/IconButton";
 
 type Props = {
   onPrev?: () => void;

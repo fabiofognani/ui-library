@@ -1,7 +1,6 @@
 import { FC, PropsWithChildren } from "react";
 import styled from "styled-components";
-
-import { Title } from "../Title";
+import { Title } from "~components/Title";
 
 const Grid = styled.div`
   display: grid;

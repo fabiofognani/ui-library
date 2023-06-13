@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
 import React, { FC, PropsWithChildren } from "react";
 import styled, { css } from "styled-components";
+import { mqUntil } from "~styles";
 
-import { mqUntil } from "../../styles";
 import { detailVariants } from "./variants";
 
 const ItemDetailInner = styled(motion.div)`

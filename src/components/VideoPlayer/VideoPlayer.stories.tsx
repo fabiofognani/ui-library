@@ -1,4 +1,5 @@
 import { Meta, StoryObj } from "@storybook/react";
+
 import { VideoPlayer } from "./VideoPlayer";
 
 export default {

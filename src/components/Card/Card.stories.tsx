@@ -1,9 +1,9 @@
 import { Meta, StoryObj } from "@storybook/react";
 import { userEvent, within } from "@storybook/testing-library";
+import { Button } from "~components/Button";
+import { Tag } from "~components/Tag";
 
 import { Card } from "./Card";
-import { Tag } from "../Tag";
-import { Button } from "../Button";
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {

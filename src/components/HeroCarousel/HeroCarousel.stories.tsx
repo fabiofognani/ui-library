@@ -1,9 +1,9 @@
 import { Meta, StoryObj } from "@storybook/react";
 import { userEvent, within } from "@storybook/testing-library";
 import { FC } from "react";
+import { sleep } from "~stories/utils/sleep";
 
 import { HeroCarousel, HeroCarouselSlide } from "./HeroCarousel";
-import { sleep } from "../../stories/utils/sleep";
 
 export default {
   title: "Slideshow/HeroCarousel",

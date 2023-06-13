@@ -1,8 +1,7 @@
 import React, { ComponentType, FC } from "react";
 import styled, { css } from "styled-components";
-
-import { mqUntil } from "../../styles/media-queries";
-import { IconButton, IconButtonProps } from "../IconButton";
+import { IconButton, IconButtonProps } from "~components/IconButton";
+import { mqUntil } from "~styles/media-queries";
 
 type Props = {
   direction: "prev" | "next";

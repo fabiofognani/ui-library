@@ -7,8 +7,18 @@ import postcss from "rollup-plugin-postcss";
 import terser from "@rollup/plugin-terser";
 import peerDepsExternal from "rollup-plugin-peer-deps-external";
 import url from "rollup-plugin-url";
+import alias from "@rollup/plugin-alias";
+import importAssertions from 'rollup-plugin-import-assertions';
 
+import TsConfig from "./tsconfig.json" assert { type: "json" };
 import PackageJSON from "./package.json" assert { type: "json" };
+
+function resolveEntries() {
+  return Object.entries(TsConfig.compilerOptions.paths).map(([find, [replacement]]) => ({
+    find,
+    replacement,
+  }));
+}
 
 export default [
   {
@@ -27,6 +37,11 @@ export default [
       },
     ],
     plugins: [
+      alias({
+        resolve: [".ts", ".tsx"],
+        entries: resolveEntries(),
+      }),
+      importAssertions(),
       peerDepsExternal(),
       url({
         // by default, rollup-plugin-url will not handle font files

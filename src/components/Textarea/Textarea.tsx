@@ -1,7 +1,6 @@
 import { FC } from "react";
 import styled from "styled-components";
-
-import { inputStyles } from "../../styles/input-styles";
+import { inputStyles } from "~styles/input-styles";
 
 export type TextareaProps = {
   /**

@@ -1,9 +1,9 @@
 import { Meta, StoryObj } from "@storybook/react";
 
 import { BackgroundDecorator } from "../../stories/decorators";
-import { MenuPanel } from "./MenuPanel";
-import { SearchBar } from "../SearchBar";
 import { Button } from "../Button";
+import { SearchBar } from "../SearchBar";
+import { MenuPanel } from "./MenuPanel";
 
 const meta: Meta = {
   component: MenuPanel,

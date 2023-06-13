@@ -1,8 +1,7 @@
 import { createRef, FC, useState } from "react";
 import styled, { css } from "styled-components";
-
-import { mqUntil } from "../../styles";
-import { PlayButton } from "../PlayButton";
+import { PlayButton } from "~components/PlayButton";
+import { mqUntil } from "~styles";
 
 export interface VideoPlayerProps {
   /**

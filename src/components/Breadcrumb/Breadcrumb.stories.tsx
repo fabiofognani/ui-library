@@ -1,8 +1,8 @@
 import { Meta, StoryObj } from "@storybook/react";
 import styled from "styled-components";
+import { BackgroundDecorator } from "~stories/decorators";
 
 import { Breadcrumb } from "./Breadcrumb";
-import { BackgroundDecorator } from "../../stories/decorators";
 
 const meta: Meta<typeof Breadcrumb> = {
   title: "Layout/Breadcrumb",

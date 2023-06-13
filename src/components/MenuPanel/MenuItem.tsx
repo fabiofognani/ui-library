@@ -1,8 +1,8 @@
 import { FC } from "react";
 import styled, { css } from "styled-components";
+import { Icon } from "~components/Icon";
 
-import { Icon } from "../Icon";
-import { MenuPanelItem, MenuPanelProps } from "./menuPanelProps";
+import { MenuPanelItem, MenuPanelProps } from "./types";
 
 type MenuItemProps = Required<Pick<MenuPanelProps, "variant">> & MenuPanelItem;
 

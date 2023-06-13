@@ -1,17 +1,17 @@
 import { Meta, StoryObj } from "@storybook/react";
-
 import {
   FooterProps,
   HeaderProps,
   HeroCarouselProps,
   PartnerCarouselProps,
   StripThreeColsProps,
-} from "../../../components";
-import { Default as Footer } from "../../../components/Footer/Footer.stories";
-import { Transparent as Header } from "../../../components/Header/Header.stories";
-import { Default as HeroCarousel } from "../../../components/HeroCarousel/HeroCarousel.stories";
-import { Default as PartnerCarousel } from "../../../components/PartnerCarousel/PartnerCarousel.stories";
-import { MainItemLarge as StripThreeCols } from "../../../components/StripThreeCols/StripThreeCols.stories";
+} from "~components";
+import { Default as Footer } from "~components/Footer/Footer.stories";
+import { Transparent as Header } from "~components/Header/Header.stories";
+import { Default as HeroCarousel } from "~components/HeroCarousel/HeroCarousel.stories";
+import { Default as PartnerCarousel } from "~components/PartnerCarousel/PartnerCarousel.stories";
+import { MainItemLarge as StripThreeCols } from "~components/StripThreeCols/StripThreeCols.stories";
+
 import Homepage from "./Homepage";
 
 export default {

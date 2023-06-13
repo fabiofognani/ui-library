@@ -1,8 +1,8 @@
 import { Meta, StoryObj } from "@storybook/react";
 import { userEvent, within } from "@storybook/testing-library";
+import { BackgroundDecorator } from "~stories/decorators";
 
 import { SearchBar } from ".";
-import { BackgroundDecorator } from "../../stories/decorators";
 
 export default {
   title: "Inputs/SearchBar",

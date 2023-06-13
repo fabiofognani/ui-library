@@ -1,8 +1,7 @@
 import { FC, useState } from "react";
 import styled, { css } from "styled-components";
-
-import { inputStyles } from "../../styles/input-styles";
-import { Button, ButtonProps } from "../Button";
+import { Button, ButtonProps } from "~components/Button";
+import { inputStyles } from "~styles/input-styles";
 
 export type InputProps = {
   /**

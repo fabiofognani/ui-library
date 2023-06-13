@@ -1,8 +1,8 @@
 import { Meta, StoryObj } from "@storybook/react";
 import { userEvent, within } from "@storybook/testing-library";
+import { BackgroundDecorator } from "~stories/decorators";
 
-import { IconButton } from "..";
-import { BackgroundDecorator } from "../../stories/decorators";
+import { IconButton } from "./IconButton";
 
 export default {
   title: "Buttons/IconButton",

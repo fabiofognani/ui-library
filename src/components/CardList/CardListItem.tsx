@@ -1,10 +1,9 @@
 import { FC } from "react";
 import styled from "styled-components";
-
-import { borderRadius, multilineEllipsis, singleLineEllipsis } from "../../styles";
-import { Button } from "../Button";
-import { Text } from "../Text";
-import { Title } from "../Title";
+import { borderRadius, multilineEllipsis, singleLineEllipsis } from "~/styles";
+import { Button } from "~components/Button";
+import { Text } from "~components/Text";
+import { Title } from "~components/Title";
 
 export type CardListItemProps = {
   preTitle?: string;

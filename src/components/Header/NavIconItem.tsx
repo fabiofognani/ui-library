@@ -1,9 +1,9 @@
 import { FC } from "react";
 import styled, { css } from "styled-components";
+import { Icon } from "~components/Icon";
+import { Text } from "~components/Text";
+import { mqUntil } from "~styles/media-queries";
 
-import { mqUntil } from "../../styles/media-queries";
-import { Icon } from "../Icon";
-import { Text } from "../Text";
 import { NavIconItemProps } from "./types";
 
 const NavIconItemWrapper = styled.div<{ isMobileVisibile?: boolean }>`

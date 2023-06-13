@@ -1,9 +1,9 @@
 import { FC, PropsWithChildren } from "react";
 import styled, { css } from "styled-components";
+import { Text } from "~components/Text";
+import { Title } from "~components/Title";
 
 import { borderRadius, mqFrom, mqUntil, multilineEllipsis } from "../../styles";
-import { Text } from "../Text";
-import { Title } from "../Title";
 
 const CardImageWrapper = styled.div<Pick<CardProps, "direction">>`
   ${(props) => borderRadius(props.theme.card.borderRadius)}

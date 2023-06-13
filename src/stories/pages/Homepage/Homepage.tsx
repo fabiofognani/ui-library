@@ -1,6 +1,5 @@
 import React, { FC, useLayoutEffect, useState } from "react";
 import styled from "styled-components";
-
 import {
   Footer,
   FooterProps,
@@ -12,7 +11,7 @@ import {
   PartnerCarouselProps,
   StripThreeCols,
   StripThreeColsProps,
-} from "../../../components";
+} from "~components";
 
 type Props = {
   headerProps: HeaderProps;

@@ -1,7 +1,7 @@
 import { FC } from "react";
 import styled from "styled-components";
+import { IconButton } from "~components/IconButton";
 
-import { IconButton } from "../IconButton";
 import { PageButton } from "./PageButton";
 
 const MAX_VISIBLE_PAGES = 5;

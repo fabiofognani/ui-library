@@ -1,10 +1,9 @@
 import { FC } from "react";
 import styled, { css } from "styled-components";
-
-import { borderRadius, mqUntil } from "../../styles";
-import { Icon, IconName } from "../Icon";
-import { Text } from "../Text";
-import { Title } from "../Title";
+import { Icon, IconName } from "~components/Icon";
+import { Text } from "~components/Text";
+import { Title } from "~components/Title";
+import { borderRadius, mqUntil } from "~styles";
 
 const CardContent = styled.div`
   display: flex;

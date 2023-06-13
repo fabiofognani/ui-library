@@ -1,8 +1,7 @@
 import { FC } from "react";
 import styled, { css } from "styled-components";
-
-import { mqUntil } from "../../styles";
-import { Icon, IconName } from "../Icon";
+import { Icon, IconName } from "~components/Icon";
+import { mqUntil } from "~styles";
 
 export type IconButtonProps = {
   /**

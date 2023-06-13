@@ -1,8 +1,7 @@
 import { FC } from "react";
 import styled, { css } from "styled-components";
-
-import { mqFrom, mqUntil } from "../../styles";
-import { Title } from "../Title";
+import { Title } from "~components/Title";
+import { mqFrom, mqUntil } from "~styles";
 
 export type StripThreeColsProps = {
   /**

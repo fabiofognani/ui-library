@@ -1,9 +1,9 @@
 import { FC, PropsWithChildren } from "react";
 import styled from "styled-components";
+import { Text } from "~components/Text";
+import { Title } from "~components/Title";
+import { borderRadius } from "~styles";
 
-import { borderRadius } from "../../styles";
-import { Text } from "../Text";
-import { Title } from "../Title";
 import { EventCardProps } from "./eventCardProps";
 
 const EventCardRoot = styled.div`

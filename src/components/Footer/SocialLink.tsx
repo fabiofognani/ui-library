@@ -1,9 +1,8 @@
 import { FC } from "react";
 import styled, { css } from "styled-components";
-
-import { mqUntil } from "../../styles";
-import { Icon, IconName } from "../Icon";
-import { Text } from "../Text";
+import { Icon, IconName } from "~components/Icon";
+import { Text } from "~components/Text";
+import { mqUntil } from "~styles";
 
 export interface SocialLinkProps {
   /**

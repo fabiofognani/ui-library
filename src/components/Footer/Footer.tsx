@@ -1,7 +1,7 @@
 import { FC } from "react";
 import styled, { css } from "styled-components";
+import { mqUntil } from "~styles/media-queries";
 
-import { mqUntil } from "../../styles/media-queries";
 import { ExtraInfo, ExtraInfoProps } from "./ExtraInfo";
 import { InfoBox, InfoBoxProps } from "./InfoBox";
 import { LinksList, LinksListProps } from "./LinksList";

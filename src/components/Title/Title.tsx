@@ -1,8 +1,7 @@
 import { FC, PropsWithChildren } from "react";
 import styled, { css, CSSProperties } from "styled-components";
-
-import { mqUntil } from "../../styles/media-queries";
-import { BiesseTheme } from "../../themes";
+import { mqUntil } from "~styles/media-queries";
+import { BiesseTheme } from "~themes";
 
 export type TitleProps = {
   /**

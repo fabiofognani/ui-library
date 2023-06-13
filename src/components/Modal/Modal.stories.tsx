@@ -1,6 +1,8 @@
 import { Meta, StoryObj } from "@storybook/react";
+import { Button } from "~components/Button";
+import { Text } from "~components/Text";
+import { VideoPlayer } from "~components/VideoPlayer";
 
-import { Button, Text, VideoPlayer } from "..";
 import { Modal } from "./Modal";
 
 export default {

@@ -1,8 +1,7 @@
 import { FC, useState } from "react";
 import styled, { css } from "styled-components";
-
-import { inputStyles } from "../../styles/input-styles";
-import { Icon } from "../Icon";
+import { Icon } from "~components/Icon";
+import { inputStyles } from "~styles/input-styles";
 
 export type SelectProps = {
   /**

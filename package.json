@@ -9,7 +9,7 @@
   "license": "ISC",
   "scripts": {
     "test": "jest",
-    "rollup": "rimraf dist && rollup -c",
+    "build": "rimraf dist && rollup -c",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "rimraf storybook-static && storybook build",
     "eslint": "eslint --max-warnings 0",

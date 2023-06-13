@@ -5,5 +5,5 @@
     "strictBindCallApply": true,
     "esModuleInterop": true
   },
-  "include": ["./**/*", "../styled.d.ts"]
+  "include": ["./**/*", "../components/**/*.stories.tsx", "../styled.d.ts"]
 }

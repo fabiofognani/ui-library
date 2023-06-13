@@ -76,7 +76,6 @@ exports[`Storyshots Buttons/PlayButton Inverted 1`] = `
   >
     <div
       className="c1"
-      data-projection-id={1}
       style={
         Object {
           "opacity": 0,
@@ -172,7 +171,6 @@ exports[`Storyshots Buttons/PlayButton Primary 1`] = `
 
 <div
   className="c0"
-  data-projection-id={2}
   data-testid="primary-button"
   style={
     Object {

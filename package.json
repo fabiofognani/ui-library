@@ -14,6 +14,7 @@
     "build-storybook": "rimraf storybook-static && storybook build",
     "eslint": "eslint --max-warnings 0",
     "prettier-check": "prettier . --check",
+    "prettier-fix": "prettier .",
     "test-storyshots": "jest storybook.test.ts",
     "test-storyshots-ci": "npm run test-storyshots -- --watchAll false",
     "test-storybook": "test-storybook",

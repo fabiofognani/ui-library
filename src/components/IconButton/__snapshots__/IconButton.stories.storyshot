@@ -1,6 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Buttons/IconButton Clicked 1`] = `
+.c0 {
+  padding: 1rem;
+  background-color: #F5F5F5;
+}
+
 .c2 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -18,11 +23,6 @@ exports[`Storyshots Buttons/IconButton Clicked 1`] = `
   height: 100%;
   width: 100%;
   color: inherit;
-}
-
-.c0 {
-  padding: 1rem;
-  background-color: #F5F5F5;
 }
 
 .c1 {
@@ -104,6 +104,11 @@ exports[`Storyshots Buttons/IconButton Clicked 1`] = `
 `;
 
 exports[`Storyshots Buttons/IconButton Light 1`] = `
+.c0 {
+  padding: 1rem;
+  background-color: #252525;
+}
+
 .c2 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -121,11 +126,6 @@ exports[`Storyshots Buttons/IconButton Light 1`] = `
   height: 100%;
   width: 100%;
   color: inherit;
-}
-
-.c0 {
-  padding: 1rem;
-  background-color: #252525;
 }
 
 .c1 {
@@ -206,6 +206,11 @@ exports[`Storyshots Buttons/IconButton Light 1`] = `
 `;
 
 exports[`Storyshots Buttons/IconButton Naked 1`] = `
+.c0 {
+  padding: 1rem;
+  background-color: #F5F5F5;
+}
+
 .c2 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -223,11 +228,6 @@ exports[`Storyshots Buttons/IconButton Naked 1`] = `
   height: 100%;
   width: 100%;
   color: inherit;
-}
-
-.c0 {
-  padding: 1rem;
-  background-color: #F5F5F5;
 }
 
 .c1 {
@@ -294,6 +294,11 @@ exports[`Storyshots Buttons/IconButton Naked 1`] = `
 `;
 
 exports[`Storyshots Buttons/IconButton Primary 1`] = `
+.c0 {
+  padding: 1rem;
+  background-color: #F5F5F5;
+}
+
 .c2 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -311,11 +316,6 @@ exports[`Storyshots Buttons/IconButton Primary 1`] = `
   height: 100%;
   width: 100%;
   color: inherit;
-}
-
-.c0 {
-  padding: 1rem;
-  background-color: #F5F5F5;
 }
 
 .c1 {
@@ -397,6 +397,11 @@ exports[`Storyshots Buttons/IconButton Primary 1`] = `
 `;
 
 exports[`Storyshots Buttons/IconButton Primary Inverted 1`] = `
+.c0 {
+  padding: 1rem;
+  background-color: #6D6E70;
+}
+
 .c2 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -414,11 +419,6 @@ exports[`Storyshots Buttons/IconButton Primary Inverted 1`] = `
   height: 100%;
   width: 100%;
   color: inherit;
-}
-
-.c0 {
-  padding: 1rem;
-  background-color: #6D6E70;
 }
 
 .c1 {

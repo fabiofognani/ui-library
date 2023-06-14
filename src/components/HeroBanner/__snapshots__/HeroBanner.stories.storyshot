@@ -154,25 +154,6 @@ exports[`Storyshots Slideshow/HeroBanner Default 1`] = `
 `;
 
 exports[`Storyshots Slideshow/HeroBanner With Extra Info 1`] = `
-.c6 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  height: 12px;
-  width: 12px;
-  -webkit-flex: 0 0 12px;
-  -ms-flex: 0 0 12px;
-  flex: 0 0 12px;
-  color: inherit;
-}
-
-.c6 > svg {
-  height: 100%;
-  width: 100%;
-  color: inherit;
-}
-
 .c4 {
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
@@ -219,6 +200,25 @@ exports[`Storyshots Slideshow/HeroBanner With Extra Info 1`] = `
   font-weight: 300;
   font-size: 18px;
   line-height: 26px;
+  color: inherit;
+}
+
+.c6 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 12px;
+  width: 12px;
+  -webkit-flex: 0 0 12px;
+  -ms-flex: 0 0 12px;
+  flex: 0 0 12px;
+  color: inherit;
+}
+
+.c6 > svg {
+  height: 100%;
+  width: 100%;
   color: inherit;
 }
 

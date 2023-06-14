@@ -1,6 +1,22 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Slideshow/VideoBanner Default 1`] = `
+.c6 {
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFF;
+}
+
+.c6 a {
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFF;
+}
+
 .c14 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -18,22 +34,6 @@ exports[`Storyshots Slideshow/VideoBanner Default 1`] = `
   height: 100%;
   width: 100%;
   color: white;
-}
-
-.c6 {
-  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 24px;
-  color: #FFF;
-}
-
-.c6 a {
-  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 24px;
-  color: #FFF;
 }
 
 .c1 {

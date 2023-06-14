@@ -1,25 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Layout/Breadcrumb Default 1`] = `
-.c4 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  height: 12px;
-  width: 12px;
-  -webkit-flex: 0 0 12px;
-  -ms-flex: 0 0 12px;
-  flex: 0 0 12px;
-  color: inherit;
-}
-
-.c4 > svg {
-  height: 100%;
-  width: 100%;
-  color: inherit;
-}
-
 .c2 {
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
@@ -49,6 +30,25 @@ exports[`Storyshots Layout/Breadcrumb Default 1`] = `
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
+  color: inherit;
+}
+
+.c4 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 12px;
+  width: 12px;
+  -webkit-flex: 0 0 12px;
+  -ms-flex: 0 0 12px;
+  flex: 0 0 12px;
+  color: inherit;
+}
+
+.c4 > svg {
+  height: 100%;
+  width: 100%;
   color: inherit;
 }
 
@@ -253,23 +253,9 @@ exports[`Storyshots Layout/Breadcrumb Default 1`] = `
 `;
 
 exports[`Storyshots Layout/Breadcrumb On Primary 1`] = `
-.c5 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  height: 12px;
-  width: 12px;
-  -webkit-flex: 0 0 12px;
-  -ms-flex: 0 0 12px;
-  flex: 0 0 12px;
-  color: inherit;
-}
-
-.c5 > svg {
-  height: 100%;
-  width: 100%;
-  color: inherit;
+.c0 {
+  padding: 1rem;
+  background-color: #6D6E70;
 }
 
 .c3 {
@@ -304,6 +290,25 @@ exports[`Storyshots Layout/Breadcrumb On Primary 1`] = `
   color: inherit;
 }
 
+.c5 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 12px;
+  width: 12px;
+  -webkit-flex: 0 0 12px;
+  -ms-flex: 0 0 12px;
+  flex: 0 0 12px;
+  color: inherit;
+}
+
+.c5 > svg {
+  height: 100%;
+  width: 100%;
+  color: inherit;
+}
+
 .c1 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -333,11 +338,6 @@ exports[`Storyshots Layout/Breadcrumb On Primary 1`] = `
 
 .c6 {
   color: #828282;
-}
-
-.c0 {
-  padding: 1rem;
-  background-color: #6D6E70;
 }
 
 .c2 {
@@ -522,23 +522,9 @@ exports[`Storyshots Layout/Breadcrumb On Primary 1`] = `
 `;
 
 exports[`Storyshots Layout/Breadcrumb On Secondary 1`] = `
-.c5 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  height: 12px;
-  width: 12px;
-  -webkit-flex: 0 0 12px;
-  -ms-flex: 0 0 12px;
-  flex: 0 0 12px;
-  color: inherit;
-}
-
-.c5 > svg {
-  height: 100%;
-  width: 100%;
-  color: inherit;
+.c0 {
+  padding: 1rem;
+  background-color: #6D6E70;
 }
 
 .c3 {
@@ -573,6 +559,25 @@ exports[`Storyshots Layout/Breadcrumb On Secondary 1`] = `
   color: inherit;
 }
 
+.c5 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 12px;
+  width: 12px;
+  -webkit-flex: 0 0 12px;
+  -ms-flex: 0 0 12px;
+  flex: 0 0 12px;
+  color: inherit;
+}
+
+.c5 > svg {
+  height: 100%;
+  width: 100%;
+  color: inherit;
+}
+
 .c1 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -602,11 +607,6 @@ exports[`Storyshots Layout/Breadcrumb On Secondary 1`] = `
 
 .c6 {
   color: #828282;
-}
-
-.c0 {
-  padding: 1rem;
-  background-color: #6D6E70;
 }
 
 .c2 {
@@ -791,23 +791,9 @@ exports[`Storyshots Layout/Breadcrumb On Secondary 1`] = `
 `;
 
 exports[`Storyshots Layout/Breadcrumb Wrap 1`] = `
-.c5 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  height: 12px;
-  width: 12px;
-  -webkit-flex: 0 0 12px;
-  -ms-flex: 0 0 12px;
-  flex: 0 0 12px;
-  color: inherit;
-}
-
-.c5 > svg {
-  height: 100%;
-  width: 100%;
-  color: inherit;
+.c0 {
+  padding: 1rem;
+  background-color: #6D6E70;
 }
 
 .c3 {
@@ -842,6 +828,25 @@ exports[`Storyshots Layout/Breadcrumb Wrap 1`] = `
   color: inherit;
 }
 
+.c5 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 12px;
+  width: 12px;
+  -webkit-flex: 0 0 12px;
+  -ms-flex: 0 0 12px;
+  flex: 0 0 12px;
+  color: inherit;
+}
+
+.c5 > svg {
+  height: 100%;
+  width: 100%;
+  color: inherit;
+}
+
 .c1 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -871,11 +876,6 @@ exports[`Storyshots Layout/Breadcrumb Wrap 1`] = `
 
 .c6 {
   color: #828282;
-}
-
-.c0 {
-  padding: 1rem;
-  background-color: #6D6E70;
 }
 
 .c2 {

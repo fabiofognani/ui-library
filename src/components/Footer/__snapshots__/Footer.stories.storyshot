@@ -1,63 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Layout/Footer Default 1`] = `
-.c9 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  height: 24px;
-  width: 24px;
-  -webkit-flex: 0 0 24px;
-  -ms-flex: 0 0 24px;
-  flex: 0 0 24px;
-  color: #FFF;
-}
-
-.c9 > svg {
-  height: 100%;
-  width: 100%;
-  color: white;
-}
-
-.c19 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  height: 18px;
-  width: 18px;
-  -webkit-flex: 0 0 18px;
-  -ms-flex: 0 0 18px;
-  flex: 0 0 18px;
-  color: #FFF;
-}
-
-.c19 > svg {
-  height: 100%;
-  width: 100%;
-  color: white;
-}
-
-.c26 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  height: 28px;
-  width: 28px;
-  -webkit-flex: 0 0 28px;
-  -ms-flex: 0 0 28px;
-  flex: 0 0 28px;
-  color: #FFF;
-}
-
-.c26 > svg {
-  height: 100%;
-  width: 100%;
-  color: white;
-}
-
 .c7 {
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
@@ -140,6 +83,63 @@ exports[`Storyshots Layout/Footer Default 1`] = `
   color: inherit;
 }
 
+.c9 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 24px;
+  width: 24px;
+  -webkit-flex: 0 0 24px;
+  -ms-flex: 0 0 24px;
+  flex: 0 0 24px;
+  color: #FFF;
+}
+
+.c9 > svg {
+  height: 100%;
+  width: 100%;
+  color: white;
+}
+
+.c19 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 18px;
+  width: 18px;
+  -webkit-flex: 0 0 18px;
+  -ms-flex: 0 0 18px;
+  flex: 0 0 18px;
+  color: #FFF;
+}
+
+.c19 > svg {
+  height: 100%;
+  width: 100%;
+  color: white;
+}
+
+.c26 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 28px;
+  width: 28px;
+  -webkit-flex: 0 0 28px;
+  -ms-flex: 0 0 28px;
+  flex: 0 0 28px;
+  color: #FFF;
+}
+
+.c26 > svg {
+  height: 100%;
+  width: 100%;
+  color: white;
+}
+
 .c16 {
   margin-top: 0;
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
@@ -147,6 +147,14 @@ exports[`Storyshots Layout/Footer Default 1`] = `
   font-size: 24px;
   text-transform: uppercase;
   color: #FFF;
+}
+
+.c3 {
+  color: #FFF;
+}
+
+.c3 svg {
+  width: 100%;
 }
 
 .c29 {
@@ -334,14 +342,6 @@ exports[`Storyshots Layout/Footer Default 1`] = `
 
 .c25 {
   grid-area: social-link;
-}
-
-.c3 {
-  color: #FFF;
-}
-
-.c3 svg {
-  width: 100%;
 }
 
 @media screen and (max-width:991px) {

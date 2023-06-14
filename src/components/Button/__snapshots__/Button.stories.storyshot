@@ -450,6 +450,11 @@ exports[`Storyshots Buttons/Button Primary Inverted 1`] = `
 `;
 
 exports[`Storyshots Buttons/Button Primary Naked 1`] = `
+.c0 {
+  padding: 1rem;
+  background-color: #F5F5F5;
+}
+
 .c2 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -467,11 +472,6 @@ exports[`Storyshots Buttons/Button Primary Naked 1`] = `
   height: 100%;
   width: 100%;
   color: inherit;
-}
-
-.c0 {
-  padding: 1rem;
-  background-color: #F5F5F5;
 }
 
 .c3 {
@@ -618,6 +618,11 @@ exports[`Storyshots Buttons/Button Small 1`] = `
 `;
 
 exports[`Storyshots Buttons/Button With Left Icon 1`] = `
+.c0 {
+  padding: 1rem;
+  background-color: #F5F5F5;
+}
+
 .c2 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -635,11 +640,6 @@ exports[`Storyshots Buttons/Button With Left Icon 1`] = `
   height: 100%;
   width: 100%;
   color: inherit;
-}
-
-.c0 {
-  padding: 1rem;
-  background-color: #F5F5F5;
 }
 
 .c3 {
@@ -739,6 +739,11 @@ exports[`Storyshots Buttons/Button With Left Icon 1`] = `
 `;
 
 exports[`Storyshots Buttons/Button With Right Icon 1`] = `
+.c0 {
+  padding: 1rem;
+  background-color: #F5F5F5;
+}
+
 .c2 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -756,11 +761,6 @@ exports[`Storyshots Buttons/Button With Right Icon 1`] = `
   height: 100%;
   width: 100%;
   color: inherit;
-}
-
-.c0 {
-  padding: 1rem;
-  background-color: #F5F5F5;
 }
 
 .c3 {

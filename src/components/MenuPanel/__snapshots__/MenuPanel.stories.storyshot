@@ -1,6 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Layout/MenuPanel Dark 1`] = `
+.c0 {
+  padding: 1rem;
+  background-color: #F5F5F5;
+  height: 100vh;
+  padding: 0;
+}
+
 .c4 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -37,13 +44,6 @@ exports[`Storyshots Layout/MenuPanel Dark 1`] = `
   height: 100%;
   width: 100%;
   color: white;
-}
-
-.c0 {
-  padding: 1rem;
-  background-color: #F5F5F5;
-  height: 100vh;
-  padding: 0;
 }
 
 .c3 {
@@ -528,6 +528,23 @@ exports[`Storyshots Layout/MenuPanel Dark 1`] = `
 `;
 
 exports[`Storyshots Layout/MenuPanel Light 1`] = `
+.c6 {
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #6D6E70;
+  margin: 0;
+}
+
+.c6 a {
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #6D6E70;
+}
+
 .c3 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -564,23 +581,6 @@ exports[`Storyshots Layout/MenuPanel Light 1`] = `
   height: 100%;
   width: 100%;
   color: primary;
-}
-
-.c6 {
-  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 24px;
-  color: #6D6E70;
-  margin: 0;
-}
-
-.c6 a {
-  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 24px;
-  color: #6D6E70;
 }
 
 .c5 {
@@ -1132,6 +1132,23 @@ exports[`Storyshots Layout/MenuPanel Light 1`] = `
 `;
 
 exports[`Storyshots Layout/MenuPanel Primary 1`] = `
+.c8 {
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFF;
+  margin: 0;
+}
+
+.c8 a {
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFF;
+}
+
 .c3 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -1168,23 +1185,6 @@ exports[`Storyshots Layout/MenuPanel Primary 1`] = `
   height: 100%;
   width: 100%;
   color: white;
-}
-
-.c8 {
-  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 24px;
-  color: #FFF;
-  margin: 0;
-}
-
-.c8 a {
-  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 24px;
-  color: #FFF;
 }
 
 .c2 {
@@ -1540,6 +1540,23 @@ exports[`Storyshots Layout/MenuPanel Primary 1`] = `
 `;
 
 exports[`Storyshots Layout/MenuPanel Secondary 1`] = `
+.c6 {
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #6D6E70;
+  margin: 0;
+}
+
+.c6 a {
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #6D6E70;
+}
+
 .c3 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -1576,23 +1593,6 @@ exports[`Storyshots Layout/MenuPanel Secondary 1`] = `
   height: 100%;
   width: 100%;
   color: primary;
-}
-
-.c6 {
-  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 24px;
-  color: #6D6E70;
-  margin: 0;
-}
-
-.c6 a {
-  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 24px;
-  color: #6D6E70;
 }
 
 .c5 {
@@ -2020,23 +2020,11 @@ exports[`Storyshots Layout/MenuPanel Secondary 1`] = `
 `;
 
 exports[`Storyshots Layout/MenuPanel White 1`] = `
-.c4 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  height: 26px;
-  width: 26px;
-  -webkit-flex: 0 0 26px;
-  -ms-flex: 0 0 26px;
-  flex: 0 0 26px;
-  color: inherit;
-}
-
-.c4 > svg {
-  height: 100%;
-  width: 100%;
-  color: inherit;
+.c0 {
+  padding: 1rem;
+  background-color: #F5F5F5;
+  height: 100vh;
+  padding: 0;
 }
 
 .c5 {
@@ -2056,11 +2044,23 @@ exports[`Storyshots Layout/MenuPanel White 1`] = `
   color: #6D6E70;
 }
 
-.c0 {
-  padding: 1rem;
-  background-color: #F5F5F5;
-  height: 100vh;
-  padding: 0;
+.c4 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 26px;
+  width: 26px;
+  -webkit-flex: 0 0 26px;
+  -ms-flex: 0 0 26px;
+  flex: 0 0 26px;
+  color: inherit;
+}
+
+.c4 > svg {
+  height: 100%;
+  width: 100%;
+  color: inherit;
 }
 
 .c3 {

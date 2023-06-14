@@ -1,44 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
-.c10 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  height: 26px;
-  width: 26px;
-  -webkit-flex: 0 0 26px;
-  -ms-flex: 0 0 26px;
-  flex: 0 0 26px;
-  color: inherit;
-}
-
-.c10 > svg {
-  height: 100%;
-  width: 100%;
-  color: inherit;
-}
-
-.c21 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  height: 20px;
-  width: 20px;
-  -webkit-flex: 0 0 20px;
-  -ms-flex: 0 0 20px;
-  flex: 0 0 20px;
-  color: #FFF;
-}
-
-.c21 > svg {
-  height: 100%;
-  width: 100%;
-  color: white;
-}
-
 .c23 {
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 500;
@@ -89,6 +51,44 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
   color: inherit;
 }
 
+.c10 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 26px;
+  width: 26px;
+  -webkit-flex: 0 0 26px;
+  -ms-flex: 0 0 26px;
+  flex: 0 0 26px;
+  color: inherit;
+}
+
+.c10 > svg {
+  height: 100%;
+  width: 100%;
+  color: inherit;
+}
+
+.c21 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 20px;
+  width: 20px;
+  -webkit-flex: 0 0 20px;
+  -ms-flex: 0 0 20px;
+  flex: 0 0 20px;
+  color: #FFF;
+}
+
+.c21 > svg {
+  height: 100%;
+  width: 100%;
+  color: white;
+}
+
 .c16 {
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: bold;
@@ -124,24 +124,6 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
 .c16:hover {
   background-color: #6D6E70;
   color: #FFF;
-}
-
-.c2 {
-  margin-top: 0;
-  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: 700;
-  font-size: 45px;
-  text-transform: uppercase;
-  color: #FFF;
-}
-
-.c14 {
-  margin-top: 0;
-  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: 700;
-  font-size: 40px;
-  text-transform: none;
-  color: #6D6E70;
 }
 
 .c24 {
@@ -200,6 +182,24 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
   -ms-flex-align: center;
   align-items: center;
   background-color: #8080FF;
+}
+
+.c2 {
+  margin-top: 0;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+  text-transform: uppercase;
+  color: #FFF;
+}
+
+.c14 {
+  margin-top: 0;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: none;
+  color: #6D6E70;
 }
 
 .c8 {

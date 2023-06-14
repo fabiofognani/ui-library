@@ -1,25 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Cards/EventCard Hero 1`] = `
-.c13 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  height: 30px;
-  width: 30px;
-  -webkit-flex: 0 0 30px;
-  -ms-flex: 0 0 30px;
-  flex: 0 0 30px;
-  color: #6D6E70;
-}
-
-.c13 > svg {
-  height: 100%;
-  width: 100%;
-  color: primary;
-}
-
 .c2 {
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
@@ -82,6 +63,25 @@ exports[`Storyshots Cards/EventCard Hero 1`] = `
   font-size: 14px;
   line-height: 20px;
   color: #FFF;
+}
+
+.c13 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 30px;
+  width: 30px;
+  -webkit-flex: 0 0 30px;
+  -ms-flex: 0 0 30px;
+  flex: 0 0 30px;
+  color: #6D6E70;
+}
+
+.c13 > svg {
+  height: 100%;
+  width: 100%;
+  color: primary;
 }
 
 .c0 {
@@ -383,25 +383,6 @@ exports[`Storyshots Cards/EventCard Hero 1`] = `
 `;
 
 exports[`Storyshots Cards/EventCard Hover State 1`] = `
-.c5 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  height: 23px;
-  width: 23px;
-  -webkit-flex: 0 0 23px;
-  -ms-flex: 0 0 23px;
-  flex: 0 0 23px;
-  color: #FFF;
-}
-
-.c5 > svg {
-  height: 100%;
-  width: 100%;
-  color: white;
-}
-
 .c4 {
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 500;
@@ -448,6 +429,25 @@ exports[`Storyshots Cards/EventCard Hover State 1`] = `
   font-size: 16px;
   line-height: 24px;
   color: inherit;
+}
+
+.c5 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 23px;
+  width: 23px;
+  -webkit-flex: 0 0 23px;
+  -ms-flex: 0 0 23px;
+  flex: 0 0 23px;
+  color: #FFF;
+}
+
+.c5 > svg {
+  height: 100%;
+  width: 100%;
+  color: white;
 }
 
 .c16 {
@@ -833,25 +833,6 @@ exports[`Storyshots Cards/EventCard Hover State 1`] = `
 `;
 
 exports[`Storyshots Cards/EventCard Primary 1`] = `
-.c5 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  height: 23px;
-  width: 23px;
-  -webkit-flex: 0 0 23px;
-  -ms-flex: 0 0 23px;
-  flex: 0 0 23px;
-  color: #FFF;
-}
-
-.c5 > svg {
-  height: 100%;
-  width: 100%;
-  color: white;
-}
-
 .c4 {
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 500;
@@ -898,6 +879,25 @@ exports[`Storyshots Cards/EventCard Primary 1`] = `
   font-size: 16px;
   line-height: 24px;
   color: inherit;
+}
+
+.c5 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 23px;
+  width: 23px;
+  -webkit-flex: 0 0 23px;
+  -ms-flex: 0 0 23px;
+  flex: 0 0 23px;
+  color: #FFF;
+}
+
+.c5 > svg {
+  height: 100%;
+  width: 100%;
+  color: white;
 }
 
 .c16 {
@@ -1509,25 +1509,6 @@ exports[`Storyshots Cards/EventCard Secondary 1`] = `
 `;
 
 exports[`Storyshots Cards/EventCard Translated 1`] = `
-.c5 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  height: 23px;
-  width: 23px;
-  -webkit-flex: 0 0 23px;
-  -ms-flex: 0 0 23px;
-  flex: 0 0 23px;
-  color: #FFF;
-}
-
-.c5 > svg {
-  height: 100%;
-  width: 100%;
-  color: white;
-}
-
 .c4 {
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 500;
@@ -1574,6 +1555,25 @@ exports[`Storyshots Cards/EventCard Translated 1`] = `
   font-size: 16px;
   line-height: 24px;
   color: inherit;
+}
+
+.c5 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 23px;
+  width: 23px;
+  -webkit-flex: 0 0 23px;
+  -ms-flex: 0 0 23px;
+  flex: 0 0 23px;
+  color: #FFF;
+}
+
+.c5 > svg {
+  height: 100%;
+  width: 100%;
+  color: white;
 }
 
 .c16 {

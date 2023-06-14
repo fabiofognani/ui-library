@@ -1,6 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Buttons/PlayButton Inverted 1`] = `
+.c0 {
+  padding: 1rem;
+  background-color: #6D6E70;
+}
+
 .c3 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -18,11 +23,6 @@ exports[`Storyshots Buttons/PlayButton Inverted 1`] = `
   height: 100%;
   width: 100%;
   color: primary;
-}
-
-.c0 {
-  padding: 1rem;
-  background-color: #6D6E70;
 }
 
 .c1 {

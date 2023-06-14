@@ -1,6 +1,24 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Cards/CardList Default 1`] = `
+.c5 {
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 14px;
+  line-height: 20px;
+  color: inherit;
+}
+
+.c5 a {
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 14px;
+  line-height: 20px;
+  color: inherit;
+}
+
 .c11 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -17,24 +35,6 @@ exports[`Storyshots Cards/CardList Default 1`] = `
 .c11 > svg {
   height: 100%;
   width: 100%;
-  color: inherit;
-}
-
-.c5 {
-  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: 300;
-  font-style: italic;
-  font-size: 14px;
-  line-height: 20px;
-  color: inherit;
-}
-
-.c5 a {
-  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: 300;
-  font-style: italic;
-  font-size: 14px;
-  line-height: 20px;
   color: inherit;
 }
 

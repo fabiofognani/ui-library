@@ -1,6 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Inputs/Checkbox Clicked 1`] = `
+.c0 {
+  padding: 1rem;
+  background-color: #6D6E70;
+}
+
 .c4 {
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
@@ -15,11 +20,6 @@ exports[`Storyshots Inputs/Checkbox Clicked 1`] = `
   font-size: 16px;
   line-height: 24px;
   color: #FFF;
-}
-
-.c0 {
-  padding: 1rem;
-  background-color: #6D6E70;
 }
 
 .c1 {
@@ -140,6 +140,11 @@ exports[`Storyshots Inputs/Checkbox Clicked 1`] = `
 `;
 
 exports[`Storyshots Inputs/Checkbox Default 1`] = `
+.c0 {
+  padding: 1rem;
+  background-color: #6D6E70;
+}
+
 .c4 {
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
@@ -154,11 +159,6 @@ exports[`Storyshots Inputs/Checkbox Default 1`] = `
   font-size: 16px;
   line-height: 24px;
   color: #FFF;
-}
-
-.c0 {
-  padding: 1rem;
-  background-color: #6D6E70;
 }
 
 .c1 {

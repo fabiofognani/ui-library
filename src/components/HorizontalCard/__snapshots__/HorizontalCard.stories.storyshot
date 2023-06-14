@@ -1,6 +1,22 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Cards/HorizontalCard Default 1`] = `
+.c7 {
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: inherit;
+}
+
+.c7 a {
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: inherit;
+}
+
 .c4 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -18,22 +34,6 @@ exports[`Storyshots Cards/HorizontalCard Default 1`] = `
   height: 100%;
   width: 100%;
   color: primary;
-}
-
-.c7 {
-  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 24px;
-  color: inherit;
-}
-
-.c7 a {
-  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 24px;
-  color: inherit;
 }
 
 .c9 {
@@ -258,6 +258,22 @@ exports[`Storyshots Cards/HorizontalCard Default 1`] = `
 `;
 
 exports[`Storyshots Cards/HorizontalCard Hover State 1`] = `
+.c7 {
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: inherit;
+}
+
+.c7 a {
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: inherit;
+}
+
 .c4 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -275,22 +291,6 @@ exports[`Storyshots Cards/HorizontalCard Hover State 1`] = `
   height: 100%;
   width: 100%;
   color: primary;
-}
-
-.c7 {
-  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 24px;
-  color: inherit;
-}
-
-.c7 a {
-  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 24px;
-  color: inherit;
 }
 
 .c9 {
@@ -564,6 +564,22 @@ exports[`Storyshots Cards/HorizontalCard Hover State 1`] = `
 `;
 
 exports[`Storyshots Cards/HorizontalCard With Custom Icon 1`] = `
+.c7 {
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: inherit;
+}
+
+.c7 a {
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: inherit;
+}
+
 .c4 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -580,22 +596,6 @@ exports[`Storyshots Cards/HorizontalCard With Custom Icon 1`] = `
 .c4 > svg {
   height: 100%;
   width: 100%;
-  color: inherit;
-}
-
-.c7 {
-  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 24px;
-  color: inherit;
-}
-
-.c7 a {
-  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 24px;
   color: inherit;
 }
 
@@ -808,6 +808,22 @@ exports[`Storyshots Cards/HorizontalCard With Custom Icon 1`] = `
 `;
 
 exports[`Storyshots Cards/HorizontalCard With Image 1`] = `
+.c7 {
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: inherit;
+}
+
+.c7 a {
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: inherit;
+}
+
 .c4 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -825,22 +841,6 @@ exports[`Storyshots Cards/HorizontalCard With Image 1`] = `
   height: 100%;
   width: 100%;
   color: primary;
-}
-
-.c7 {
-  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 24px;
-  color: inherit;
-}
-
-.c7 a {
-  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 24px;
-  color: inherit;
 }
 
 .c9 {

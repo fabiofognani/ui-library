@@ -1,6 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Inputs/SearchBar Dark Background 1`] = `
+.c0 {
+  padding: 1rem;
+  background-color: #252525;
+}
+
 .c3 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -18,11 +23,6 @@ exports[`Storyshots Inputs/SearchBar Dark Background 1`] = `
   height: 100%;
   width: 100%;
   color: inherit;
-}
-
-.c0 {
-  padding: 1rem;
-  background-color: #252525;
 }
 
 .c1 {
@@ -129,6 +129,11 @@ exports[`Storyshots Inputs/SearchBar Dark Background 1`] = `
 `;
 
 exports[`Storyshots Inputs/SearchBar Default 1`] = `
+.c0 {
+  padding: 1rem;
+  background-color: #6D6E70;
+}
+
 .c3 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -146,11 +151,6 @@ exports[`Storyshots Inputs/SearchBar Default 1`] = `
   height: 100%;
   width: 100%;
   color: inherit;
-}
-
-.c0 {
-  padding: 1rem;
-  background-color: #6D6E70;
 }
 
 .c1 {
@@ -257,6 +257,11 @@ exports[`Storyshots Inputs/SearchBar Default 1`] = `
 `;
 
 exports[`Storyshots Inputs/SearchBar Searched 1`] = `
+.c0 {
+  padding: 1rem;
+  background-color: #6D6E70;
+}
+
 .c3 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -274,11 +279,6 @@ exports[`Storyshots Inputs/SearchBar Searched 1`] = `
   height: 100%;
   width: 100%;
   color: inherit;
-}
-
-.c0 {
-  padding: 1rem;
-  background-color: #6D6E70;
 }
 
 .c1 {
@@ -386,6 +386,11 @@ exports[`Storyshots Inputs/SearchBar Searched 1`] = `
 `;
 
 exports[`Storyshots Inputs/SearchBar With Placeholder 1`] = `
+.c0 {
+  padding: 1rem;
+  background-color: #6D6E70;
+}
+
 .c3 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -403,11 +408,6 @@ exports[`Storyshots Inputs/SearchBar With Placeholder 1`] = `
   height: 100%;
   width: 100%;
   color: inherit;
-}
-
-.c0 {
-  padding: 1rem;
-  background-color: #6D6E70;
 }
 
 .c1 {

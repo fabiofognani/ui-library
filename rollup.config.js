@@ -1,13 +1,11 @@
-import resolve from "@rollup/plugin-node-resolve";
 import commonjs from "@rollup/plugin-commonjs";
-import typescript from "@rollup/plugin-typescript";
-import postcss from "rollup-plugin-postcss";
+import resolve from "@rollup/plugin-node-resolve";
 import terser from "@rollup/plugin-terser";
+import typescript from "@rollup/plugin-typescript";
 import peerDepsExternal from "rollup-plugin-peer-deps-external";
+import postcss from "rollup-plugin-postcss";
+import tsConfigPaths from "rollup-plugin-tsconfig-paths";
 import url from "rollup-plugin-url";
-import tsConfigPaths from "rollup-plugin-tsconfig-paths"
-
-import PackageJSON from "./package.json" assert { type: "json" };
 
 export default [
   {
@@ -15,7 +13,7 @@ export default [
     external: ["styled-components"],
     output: [
       {
-        file: PackageJSON.module,
+        file: "dist/index.js",
         format: "esm",
         sourcemap: true,
       },

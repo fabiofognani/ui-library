@@ -1,6 +1,7 @@
-import { FC } from "react";
+import { type FC } from "react";
 import styled, { css } from "styled-components";
-import { Icon, IconName } from "~components/Icon";
+
+import { Icon, type IconName } from "~components/Icon";
 import { Text } from "~components/Text";
 import { Title } from "~components/Title";
 import { borderRadius, mqUntil } from "~styles";
@@ -69,7 +70,7 @@ const CardContainer = styled.div`
   }
 `;
 
-type HorizontalCardProps = {
+interface HorizontalCardProps {
   /** Card title */
   title: string;
   /** Card icon (above title) */
@@ -87,7 +88,7 @@ type HorizontalCardProps = {
    */
   image?: JSX.Element;
   testId?: string;
-};
+}
 
 export const HorizontalCard: FC<HorizontalCardProps> = ({
   icon,

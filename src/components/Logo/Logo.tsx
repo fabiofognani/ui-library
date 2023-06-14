@@ -1,4 +1,4 @@
-import { FC } from "react";
+import { type FC } from "react";
 import styled, { css } from "styled-components";
 
 import * as LogoSources from "./logo-sources";

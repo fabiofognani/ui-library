@@ -1,7 +1,7 @@
-import { Meta, StoryObj } from "@storybook/react";
+import { type Meta, type StoryObj } from "@storybook/react";
 
 import { CardList } from "./CardList";
-import { CardListItem, CardListItemProps } from "./CardListItem";
+import { CardListItem, type CardListItemProps } from "./CardListItem";
 
 const meta: Meta<typeof CardList> = {
   title: "Cards/CardList",

@@ -1,11 +1,12 @@
-import React, { FC } from "react";
+import React, { type FC } from "react";
 import styled from "styled-components";
+
 import { IconButton } from "~components/IconButton";
 
-type Props = {
+interface Props {
   onPrev?: () => void;
   onNext?: () => void;
-};
+}
 
 const ControlsRoot = styled.div`
   margin-top: 42px;

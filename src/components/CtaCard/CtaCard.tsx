@@ -1,5 +1,6 @@
-import { FC } from "react";
+import { type FC } from "react";
 import styled, { css } from "styled-components";
+
 import { Icon } from "~components/Icon";
 import { Text } from "~components/Text";
 import { Title } from "~components/Title";
@@ -130,7 +131,7 @@ const LinkWrapper = styled.div`
   cursor: pointer;
 `;
 
-export type CtaCardProps = {
+export interface CtaCardProps {
   /** Card title */
   title: string;
   /**
@@ -151,7 +152,7 @@ export type CtaCardProps = {
    */
   variant: "full-image" | "with-title";
   testId?: string;
-};
+}
 
 export const CtaCard: FC<CtaCardProps> = ({
   title,

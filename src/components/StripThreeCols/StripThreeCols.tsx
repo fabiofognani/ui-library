@@ -1,9 +1,10 @@
-import { FC } from "react";
+import { type FC } from "react";
 import styled, { css } from "styled-components";
+
 import { Title } from "~components/Title";
 import { mqFrom, mqUntil } from "~styles";
 
-export type StripThreeColsProps = {
+export interface StripThreeColsProps {
   /**
    * Strip title
    */
@@ -28,7 +29,7 @@ export type StripThreeColsProps = {
    * - `1-1-1`: Items are 33.33% of available space each
    */
   variant?: "2-1-1" | "1-2-2" | "1-1-1";
-};
+}
 
 const Root = styled.div`
   width: 100%;

@@ -1,11 +1,12 @@
-import { FC } from "react";
+import { type FC } from "react";
 import styled, { css } from "styled-components";
-import { Icon, IconName } from "~components/Icon";
+
+import { Icon, type IconName } from "~components/Icon";
 import { Text } from "~components/Text";
 import { Title } from "~components/Title";
 import { mqUntil } from "~styles";
 
-export type IconCardProps = {
+export interface IconCardProps {
   /**
    * An icon from icons set or an external JSX element
    */
@@ -22,7 +23,7 @@ export type IconCardProps = {
    * Actions like buttons, etc *(optional)*
    */
   action?: JSX.Element;
-};
+}
 
 const Root = styled.div`
   display: flex;

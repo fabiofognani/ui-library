@@ -1,9 +1,10 @@
-import { FC, useState } from "react";
+import { type FC, useState } from "react";
 import styled, { css } from "styled-components";
+
 import { Icon } from "~components/Icon";
 import { inputStyles } from "~styles/input-styles";
 
-export type SelectProps = {
+export interface SelectProps {
   /**
    * Shows a disabled option as placeholder
    */
@@ -34,7 +35,7 @@ export type SelectProps = {
    */
   "aria-label": string;
   testId?: string;
-};
+}
 
 const SelectContainer = styled.div`
   position: relative;
@@ -64,10 +65,10 @@ const SelectIcon = styled(Icon)`
   transform: rotate(90deg);
 `;
 
-export type SelectOption = {
+export interface SelectOption {
   label: string;
   value: string;
-};
+}
 
 export const Select: FC<SelectProps> = ({
   value,
@@ -88,8 +89,10 @@ export const Select: FC<SelectProps> = ({
     <SelectContainer>
       <StyledSelect
         selected={selected}
-        onChange={(e) => handleChange(e.currentTarget.value)}
-        defaultValue={value || ""}
+        onChange={(e) => {
+          handleChange(e.currentTarget.value);
+        }}
+        defaultValue={value ?? ""}
         data-testid={testId}
         {...props}
       >

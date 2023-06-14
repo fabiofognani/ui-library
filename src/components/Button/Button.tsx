@@ -1,7 +1,7 @@
-import { PropsWithChildren } from "react";
-import React from "react";
+import React, { type PropsWithChildren } from "react";
 import styled, { css } from "styled-components";
-import { Icon, IconName } from "~components/Icon";
+
+import { Icon, type IconName } from "~components/Icon";
 
 export interface ButtonProps {
   /**

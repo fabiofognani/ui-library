@@ -1,17 +1,18 @@
-import { FC } from "react";
+import { type FC } from "react";
 import styled from "styled-components";
+
 import { borderRadius, multilineEllipsis, singleLineEllipsis } from "~/styles";
 import { Button } from "~components/Button";
 import { Text } from "~components/Text";
 import { Title } from "~components/Title";
 
-export type CardListItemProps = {
+export interface CardListItemProps {
   preTitle?: string;
   title: string;
   image: JSX.Element;
   buttonLabel?: string;
   onClick?: () => void;
-};
+}
 
 const CardImage = styled.div`
   grid-area: image;

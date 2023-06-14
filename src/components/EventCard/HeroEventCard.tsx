@@ -1,11 +1,12 @@
-import { FC } from "react";
+import { type FC } from "react";
 import styled, { css } from "styled-components";
+
 import { Icon } from "~components/Icon";
 import { Text } from "~components/Text";
 import { borderRadius } from "~styles";
 import { mqUntil } from "~styles/media-queries";
 
-import { EventCardProps } from "./eventCardProps";
+import { type EventCardProps } from "./eventCardProps";
 
 const HeroEventCardRoot = styled.div`
   position: relative;

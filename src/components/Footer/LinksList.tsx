@@ -1,5 +1,6 @@
-import { FC } from "react";
+import { type FC } from "react";
 import styled, { css } from "styled-components";
+
 import { Icon } from "~components/Icon";
 import { Text } from "~components/Text";
 import { Title } from "~components/Title";

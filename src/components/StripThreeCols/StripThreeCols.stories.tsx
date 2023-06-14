@@ -1,7 +1,7 @@
-import { Meta, StoryObj } from "@storybook/react";
+import { type Meta, type StoryObj } from "@storybook/react";
 import styled from "styled-components";
 
-import { StripThreeCols, StripThreeColsProps } from "./StripThreeCols";
+import { StripThreeCols, type StripThreeColsProps } from "./StripThreeCols";
 
 export default {
   title: "Layout/StripThreeCols",

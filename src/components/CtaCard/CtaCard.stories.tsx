@@ -1,6 +1,7 @@
-import { Meta, StoryObj } from "@storybook/react";
+import { type Meta, type StoryObj } from "@storybook/react";
 import "dayjs/locale/it";
 import styled, { css } from "styled-components";
+
 import { mqUntil } from "~styles/media-queries";
 
 import { CtaCard } from "./CtaCard";

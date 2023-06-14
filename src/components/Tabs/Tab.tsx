@@ -1,9 +1,9 @@
 import styled, { css } from "styled-components";
 
-type Props = {
+interface Props {
   selected?: boolean;
   onClick?: () => void;
-};
+}
 
 export const Tab = styled.button<Props>`
   display: inline-flex;

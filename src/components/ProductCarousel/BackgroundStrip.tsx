@@ -1,5 +1,6 @@
-import { FC, PropsWithChildren } from "react";
+import { type FC, type PropsWithChildren } from "react";
 import styled, { css } from "styled-components";
+
 import { mqUntil } from "~styles/media-queries";
 
 const BackgroundOuter = styled.div`

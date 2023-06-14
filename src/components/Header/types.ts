@@ -1,4 +1,4 @@
-import { IconName } from "~components/Icon";
+import { type IconName } from "~components/Icon";
 
 export interface NavLink {
   label: string;
@@ -52,7 +52,7 @@ export interface HeaderProps {
   /**
    * Collection of navigation icons
    */
-  navIcons?: Omit<NavIconItemProps, "variant">[];
+  navIcons?: Array<Omit<NavIconItemProps, "variant">>;
   /**
    * Collection of navigation links
    * Smaller text, under the main banner

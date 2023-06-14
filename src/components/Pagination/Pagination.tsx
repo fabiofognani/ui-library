@@ -1,12 +1,13 @@
-import { FC } from "react";
+import { type FC } from "react";
 import styled from "styled-components";
+
 import { IconButton } from "~components/IconButton";
 
 import { PageButton } from "./PageButton";
 
 const MAX_VISIBLE_PAGES = 5;
 
-export type PaginationProps = {
+export interface PaginationProps {
   /**
    * Total number of pages
    */
@@ -20,7 +21,7 @@ export type PaginationProps = {
    * @param newPage the new page index
    */
   onChangePage?: (newPage: number) => void;
-};
+}
 
 const Container = styled.div`
   display: flex;
@@ -70,32 +71,62 @@ export const Pagination: FC<PaginationProps> = ({
         aria-label="prev"
         icon="chevron-left"
         variant="primary-naked"
-        onClick={() => handleChange(currentPage - 1)}
+        onClick={() => {
+          handleChange(currentPage - 1);
+        }}
       />
       {visiblePagesCount < pagesCount && (
         <>
-          {firstVisiblePage > 1 && <PageButton onClick={() => handleChange(1)}>1</PageButton>}
+          {firstVisiblePage > 1 && (
+            <PageButton
+              onClick={() => {
+                handleChange(1);
+              }}
+            >
+              1
+            </PageButton>
+          )}
           {firstVisiblePage > 2 && (
-            <PageButton onClick={() => handleChange(currentPage - MAX_VISIBLE_PAGES)}>
+            <PageButton
+              onClick={() => {
+                handleChange(currentPage - MAX_VISIBLE_PAGES);
+              }}
+            >
               ...
             </PageButton>
           )}
         </>
       )}
       {visiblePages.map((page) => (
-        <PageButton selected={page === currentPage} onClick={() => handleChange(page)} key={page}>
+        <PageButton
+          selected={page === currentPage}
+          onClick={() => {
+            handleChange(page);
+          }}
+          key={page}
+        >
           {page}
         </PageButton>
       ))}
       {visiblePagesCount < pagesCount && (
         <>
           {firstVisiblePage + MAX_VISIBLE_PAGES < pagesCount && (
-            <PageButton onClick={() => handleChange(currentPage + MAX_VISIBLE_PAGES)}>
+            <PageButton
+              onClick={() => {
+                handleChange(currentPage + MAX_VISIBLE_PAGES);
+              }}
+            >
               ...
             </PageButton>
           )}
           {firstVisiblePage + MAX_VISIBLE_PAGES - 1 < pagesCount && (
-            <PageButton onClick={() => handleChange(pagesCount)}>{pagesCount}</PageButton>
+            <PageButton
+              onClick={() => {
+                handleChange(pagesCount);
+              }}
+            >
+              {pagesCount}
+            </PageButton>
           )}
         </>
       )}
@@ -103,7 +134,9 @@ export const Pagination: FC<PaginationProps> = ({
         aria-label="next"
         icon="chevron-right"
         variant="primary-naked"
-        onClick={() => handleChange(currentPage + 1)}
+        onClick={() => {
+          handleChange(currentPage + 1);
+        }}
       />
     </Container>
   );

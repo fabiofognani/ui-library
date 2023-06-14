@@ -1,5 +1,6 @@
-import { Meta, StoryObj } from "@storybook/react";
+import { type Meta, type StoryObj } from "@storybook/react";
 import { userEvent, within } from "@storybook/testing-library";
+
 import { Button } from "~components/Button";
 import { Tag } from "~components/Tag";
 
@@ -60,7 +61,11 @@ const tags = [
   </Tag>,
 ];
 const preTitle = "01 gennaio 2023, Location";
-const action = <Button variant="outline" children="Action" testId="action-button" />;
+const action = (
+  <Button variant="outline" testId="action-button">
+    Action
+  </Button>
+);
 
 export const Default: Story = {
   args: defaultArgs,

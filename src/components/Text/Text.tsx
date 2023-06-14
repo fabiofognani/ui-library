@@ -1,9 +1,10 @@
-import { CSSProperties, FC, PropsWithChildren } from "react";
+import { type CSSProperties, type FC, type PropsWithChildren } from "react";
 import styled, { css } from "styled-components";
-import { mqUntil } from "~styles/media-queries";
-import { BiesseTheme } from "~themes";
 
-export type TextProps = {
+import { mqUntil } from "~styles/media-queries";
+import { type BiesseTheme } from "~themes";
+
+export interface TextProps {
   /**
    * Font size, should be one of `xl`, `lg`, `md`, `sm`, `xs`
    */
@@ -32,7 +33,7 @@ export type TextProps = {
    * Additional CSS style
    */
   style?: CSSProperties;
-};
+}
 
 const getColor = (color?: TextProps["color"]) => css`
   color: ${(props) => {
@@ -92,7 +93,7 @@ const getSize = (size: TextProps["size"] = "md", responsive = true) => css`
 
 const textStyle = css<TextProps>`
   font-family: ${(props) => props.theme.font.family};
-  font-weight: ${(props) => props.theme.font.weight[props.weight || "book"]};
+  font-weight: ${(props) => props.theme.font.weight[props.weight ?? "book"]};
   ${(props) =>
     props.italic &&
     css`

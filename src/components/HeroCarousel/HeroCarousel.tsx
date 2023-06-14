@@ -1,6 +1,7 @@
 import { AnimatePresence, motion, wrap } from "framer-motion";
-import { FC, useCallback, useEffect, useState } from "react";
+import { type FC, useCallback, useEffect, useState } from "react";
 import styled, { css } from "styled-components";
+
 import { Text } from "~components/Text";
 import { Title } from "~components/Title";
 import { mqUntil } from "~styles";
@@ -15,7 +16,7 @@ export interface HeroCarouselSlide {
   description: string | JSX.Element;
 }
 
-export type HeroCarouselProps = {
+export interface HeroCarouselProps {
   /**
    * List of displayed slides
    */
@@ -24,7 +25,7 @@ export type HeroCarouselProps = {
    * Change slide automatically every provided seconds number
    */
   autoSlide?: number;
-};
+}
 
 const CarouselContainer = styled.div`
   position: relative;
@@ -146,7 +147,14 @@ export const HeroCarousel: FC<HeroCarouselProps> = ({ slides, autoSlide, ...prop
             )}
           </motion.div>
         </AnimatePresence>
-        <CarouselControls onPrev={() => handleSlide("prev")} onNext={() => handleSlide("next")} />
+        <CarouselControls
+          onPrev={() => {
+            handleSlide("prev");
+          }}
+          onNext={() => {
+            handleSlide("next");
+          }}
+        />
       </TextContainer>
     </CarouselContainer>
   );

@@ -1,4 +1,5 @@
 import { css } from "styled-components";
+
 import NBIP_Bold_ttf from "~fonts/nbinternationalprobol-webfont.ttf";
 import NBIP_Bold_woff from "~fonts/nbinternationalprobol-webfont.woff";
 import NBIP_Bold_woff2 from "~fonts/nbinternationalprobol-webfont.woff2";

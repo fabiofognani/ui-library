@@ -1,10 +1,11 @@
-import { Meta, StoryObj } from "@storybook/react";
+import { type Meta, type StoryObj } from "@storybook/react";
+
 import {
-  FooterProps,
-  HeaderProps,
-  HeroCarouselProps,
-  PartnerCarouselProps,
-  StripThreeColsProps,
+  type FooterProps,
+  type HeaderProps,
+  type HeroCarouselProps,
+  type PartnerCarouselProps,
+  type StripThreeColsProps,
 } from "~components";
 import { Default as Footer } from "~components/Footer/Footer.stories";
 import { Transparent as Header } from "~components/Header/Header.stories";

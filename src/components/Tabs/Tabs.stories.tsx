@@ -1,7 +1,7 @@
-import { Meta, StoryObj } from "@storybook/react";
-import { FC, useState } from "react";
+import { type Meta, type StoryObj } from "@storybook/react";
+import { type FC, useState } from "react";
 
-import { Tabs, TabsProps } from "./Tabs";
+import { Tabs, type TabsProps } from "./Tabs";
 
 const tabs: TabsProps["tabs"] = [
   {

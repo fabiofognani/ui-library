@@ -1,8 +1,9 @@
-import { FC, useEffect, useState } from "react";
+import { type FC, useEffect, useState } from "react";
 import styled from "styled-components";
+
 import { Icon } from "~components/Icon";
 
-type SearchBarProps = {
+interface SearchBarProps {
   /**
    * Input placeholder
    */
@@ -24,7 +25,7 @@ type SearchBarProps = {
    */
   debounce?: number;
   testId?: string;
-};
+}
 
 const InputRoot = styled.div`
   position: relative;
@@ -67,7 +68,7 @@ export const SearchBar: FC<SearchBarProps> = ({
   testId,
   ...props
 }) => {
-  const [value, setValue] = useState(defaultValue || "");
+  const [value, setValue] = useState(defaultValue ?? "");
   const [touched, setTouched] = useState(false);
 
   const handleChange = (newValue: string) => {
@@ -93,7 +94,9 @@ export const SearchBar: FC<SearchBarProps> = ({
         type="text"
         placeholder={placeholder}
         defaultValue={value}
-        onChange={(event) => handleChange(event.currentTarget.value)}
+        onChange={(event) => {
+          handleChange(event.currentTarget.value);
+        }}
         data-testid={testId}
       />
       <InputIcon size="26px" name="search" />

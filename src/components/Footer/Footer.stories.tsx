@@ -1,4 +1,5 @@
-import { Meta, StoryObj } from "@storybook/react";
+import { type Meta, type StoryObj } from "@storybook/react";
+
 import { Logo } from "~components/Logo";
 import { Text } from "~components/Text";
 
@@ -60,6 +61,7 @@ export const Default: Story = {
       },
       {
         title: "Service Italia:",
+        // eslint-disable-next-line react/jsx-key
         lines: [<a href="mailto:servicehsd@hsd.it">servicehsd@hsd.it</a>],
       },
     ],

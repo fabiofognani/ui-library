@@ -1,6 +1,7 @@
-import { Meta, StoryObj } from "@storybook/react";
-import { FC } from "react";
+import { type Meta, type StoryObj } from "@storybook/react";
+import { type FC } from "react";
 import styled, { css } from "styled-components";
+
 import { Button } from "~components/Button";
 import { Tag } from "~components/Tag";
 import { Text } from "~components/Text";

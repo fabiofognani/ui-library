@@ -1,11 +1,11 @@
-import { FC } from "react";
+import { type FC } from "react";
 import styled from "styled-components";
 
 import { IconButton } from "../IconButton";
 import { Text } from "../Text";
 import { MenuDivider } from "./MenuDivider";
 import { MenuItem } from "./MenuItem";
-import { MenuPanelProps } from "./types";
+import { type MenuPanelProps } from "./types";
 
 const Panel = styled.div<Pick<MenuPanelProps, "variant" | "width">>`
   background-color: ${({ variant, theme }) => {
@@ -22,7 +22,7 @@ const Panel = styled.div<Pick<MenuPanelProps, "variant" | "width">>`
         return theme.color.black;
     }
   }};
-  width: ${(props) => props.width || "100%"};
+  width: ${(props) => props.width ?? "100%"};
   height: 100vh;
   display: flex;
   flex-direction: column;

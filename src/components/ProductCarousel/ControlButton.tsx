@@ -1,12 +1,13 @@
-import React, { ComponentType, FC } from "react";
+import React, { type ComponentType, type FC } from "react";
 import styled, { css } from "styled-components";
-import { IconButton, IconButtonProps } from "~components/IconButton";
+
+import { IconButton, type IconButtonProps } from "~components/IconButton";
 import { mqUntil } from "~styles/media-queries";
 
-type Props = {
+interface Props {
   direction: "prev" | "next";
   onClick?: () => void;
-};
+}
 
 const StyledIconButton = styled<ComponentType<IconButtonProps & Pick<Props, "direction">>>(
   IconButton

@@ -1,6 +1,7 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
+# npm run eslint && npm run prettier-fix
 npx lint-staged
 
 npm run test-storyshots-ci

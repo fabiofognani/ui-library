@@ -1,5 +1,6 @@
-import { FC, PropsWithChildren } from "react";
+import { type FC, type PropsWithChildren } from "react";
 import styled, { css } from "styled-components";
+
 import { Text } from "~components/Text";
 import { Title } from "~components/Title";
 

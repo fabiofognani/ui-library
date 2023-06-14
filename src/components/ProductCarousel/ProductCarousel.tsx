@@ -1,5 +1,6 @@
 import { AnimatePresence } from "framer-motion";
 import styled, { css } from "styled-components";
+
 import { Title } from "~components/Title";
 import { mqUntil } from "~styles/media-queries";
 import { getKeys } from "~utils/getKeys";
@@ -31,7 +32,7 @@ const ItemDetailWrapper = styled.div`
   justify-content: center;
 `;
 
-export type ProductCarouselProps<T extends object> = {
+export interface ProductCarouselProps<T extends object> {
   /**
    * Strip title
    */
@@ -62,7 +63,7 @@ export type ProductCarouselProps<T extends object> = {
    * @returns a JSX element representing the item detail
    */
   renderDetail: (item: T) => JSX.Element;
-};
+}
 
 export const ProductCarousel = <T extends object>({
   title,
@@ -87,6 +88,7 @@ export const ProductCarousel = <T extends object>({
         <ItemsStrip>
           <AnimatePresence initial={false} custom={direction}>
             {getKeys(shownItems).map((pos) => (
+              // eslint-disable-next-line react/jsx-key
               <ItemTitle variants={titleVariants[pos]} {...getItemMotionProps(pos)}>
                 {renderTitle(shownItems[pos])}
               </ItemTitle>
@@ -96,6 +98,7 @@ export const ProductCarousel = <T extends object>({
         <ItemsStrip>
           <AnimatePresence initial={false} custom={direction}>
             {getKeys(shownItems).map((pos) => (
+              // eslint-disable-next-line react/jsx-key
               <ItemImage variants={imageVariants[pos]} {...getItemMotionProps(pos)}>
                 {renderImage(shownItems[pos])}
               </ItemImage>
@@ -107,14 +110,14 @@ export const ProductCarousel = <T extends object>({
         <ItemsStrip isMobile>
           <AnimatePresence initial={false} custom={direction}>
             <ItemTitle variants={mobileVariants} {...getItemMotionProps("center")}>
-              {renderTitle(shownItems["center"])}
+              {renderTitle(shownItems.center)}
             </ItemTitle>
           </AnimatePresence>
         </ItemsStrip>
         <ItemsStrip isMobile>
           <AnimatePresence initial={false} custom={direction}>
             <ItemImage variants={mobileVariants} {...getItemMotionProps("center")}>
-              {renderImage(shownItems["center"])}
+              {renderImage(shownItems.center)}
             </ItemImage>
           </AnimatePresence>
         </ItemsStrip>
@@ -125,7 +128,7 @@ export const ProductCarousel = <T extends object>({
       </BackgroundStrip>
       <ItemDetailWrapper>
         <AnimatePresence initial={false}>
-          <ItemDetail uniqueId={page}>{renderDetail(shownItems["center"])}</ItemDetail>
+          <ItemDetail uniqueId={page}>{renderDetail(shownItems.center)}</ItemDetail>
         </AnimatePresence>
       </ItemDetailWrapper>
     </div>

@@ -1,5 +1,6 @@
-import { FC, useCallback, useState } from "react";
+import { type FC, useCallback, useState } from "react";
 import styled from "styled-components";
+
 import { Text } from "~components/Text";
 
 export interface Props {
@@ -74,7 +75,9 @@ export const Checkbox: FC<Props> = ({
       <HiddenInput
         id={inputId}
         type="checkbox"
-        onChange={(e) => onInputChange(e.target.checked)}
+        onChange={(e) => {
+          onInputChange(e.target.checked);
+        }}
         checked={isChecked}
       />
       <StyledCheckbox checked={isChecked}>

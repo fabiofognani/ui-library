@@ -1,6 +1,7 @@
 import { AnimatePresence, motion } from "framer-motion";
-import { FC } from "react";
+import { type FC } from "react";
 import styled from "styled-components";
+
 import { Icon } from "~components/Icon";
 
 export interface PlayButtonProps {

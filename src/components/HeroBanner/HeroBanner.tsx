@@ -1,10 +1,11 @@
-import { FC, PropsWithChildren } from "react";
+import { type FC, type PropsWithChildren } from "react";
 import styled, { css } from "styled-components";
+
 import { Text } from "~components/Text";
 import { Title } from "~components/Title";
 import { borderRadius, mqUntil } from "~styles";
 
-export type HeroBannerProps = {
+export interface HeroBannerProps {
   /**
    * Banner background image
    */
@@ -22,7 +23,7 @@ export type HeroBannerProps = {
    */
   breadcrumb?: JSX.Element;
   className?: string;
-};
+}
 
 const Root = styled.div`
   height: 500px;

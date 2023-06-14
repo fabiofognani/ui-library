@@ -1,11 +1,12 @@
-import { FC } from "react";
+import { type FC } from "react";
 import styled, { css } from "styled-components";
+
 import { Icon } from "~components/Icon";
 import { Text } from "~components/Text";
 import { mqUntil } from "~styles/media-queries";
 
 import { NavIconItem } from "./NavIconItem";
-import { HeaderProps } from "./types";
+import { type HeaderProps } from "./types";
 
 const HeaderRoot = styled.div<Pick<HeaderProps, "variant">>`
   display: flex;

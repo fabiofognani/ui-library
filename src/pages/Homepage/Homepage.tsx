@@ -1,25 +1,26 @@
-import React, { FC, useLayoutEffect, useState } from "react";
+import React, { type FC, useLayoutEffect, useState } from "react";
 import styled from "styled-components";
+
 import {
   Footer,
-  FooterProps,
+  type FooterProps,
   Header,
-  HeaderProps,
+  type HeaderProps,
   HeroCarousel,
-  HeroCarouselProps,
+  type HeroCarouselProps,
   PartnerCarousel,
-  PartnerCarouselProps,
+  type PartnerCarouselProps,
   StripThreeCols,
-  StripThreeColsProps,
+  type StripThreeColsProps,
 } from "~components";
 
-type Props = {
+interface Props {
   headerProps: HeaderProps;
   heroCarouselProps: HeroCarouselProps;
   stripThreeColsProps: StripThreeColsProps;
   partnerCarouselProps: PartnerCarouselProps;
   footerProps: FooterProps;
-};
+}
 
 const StyledHeader = styled(Header)`
   position: fixed;

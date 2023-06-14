@@ -1,11 +1,11 @@
-import { FC, PropsWithChildren } from "react";
+import { type FC, type PropsWithChildren } from "react";
 import styled, { css } from "styled-components";
 
-type Props = {
+interface Props {
   background?: "primary" | "secondary" | "light" | "dark";
   fullScreen?: boolean;
   maxWidth?: number | string;
-};
+}
 
 const StyledBg = styled.div<Props>`
   padding: 1rem;

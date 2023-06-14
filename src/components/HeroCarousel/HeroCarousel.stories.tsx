@@ -1,9 +1,10 @@
-import { Meta, StoryObj } from "@storybook/react";
+import { type Meta, type StoryObj } from "@storybook/react";
 import { userEvent, within } from "@storybook/testing-library";
-import { FC } from "react";
+import { type FC } from "react";
+
 import { sleep } from "~stories/utils/sleep";
 
-import { HeroCarousel, HeroCarouselSlide } from "./HeroCarousel";
+import { HeroCarousel, type HeroCarouselSlide } from "./HeroCarousel";
 
 export default {
   title: "Slideshow/HeroCarousel",

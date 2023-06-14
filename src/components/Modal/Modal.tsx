@@ -10,12 +10,13 @@ import {
   useRole,
 } from "@floating-ui/react";
 import { AnimatePresence, motion } from "framer-motion";
-import React, { PropsWithChildren, useEffect, useState } from "react";
+import React, { type PropsWithChildren, useEffect, useState } from "react";
 import styled, { css } from "styled-components";
+
 import { IconButton } from "~components/IconButton";
 import { mqUntil } from "~styles";
 
-export type ModalProps = {
+export interface ModalProps {
   className?: string;
   testId?: string;
   onOpen?: () => void;
@@ -23,12 +24,12 @@ export type ModalProps = {
   renderTrigger: (
     props: { ref: (node: any | null) => void; onClick: () => void } & Record<string, unknown>
   ) => JSX.Element;
-};
+}
 
-export type ModalHandle = {
+export interface ModalHandle {
   open: () => void;
   close: () => void;
-};
+}
 
 const StyledOverlay = styled(FloatingOverlay)`
   background-color: ${(props) => props.theme.color.modalBackground};
@@ -91,7 +92,9 @@ export const Modal = React.forwardRef<ModalHandle, PropsWithChildren<ModalProps>
       <>
         {renderTrigger({
           ref: refs.setReference,
-          onClick: () => setOpen(true),
+          onClick: () => {
+            setOpen(true);
+          },
           ...getReferenceProps(),
         })}
         <FloatingPortal>
@@ -122,7 +125,9 @@ export const Modal = React.forwardRef<ModalHandle, PropsWithChildren<ModalProps>
                         aria-label="close"
                         variant="primary-inverted"
                         icon="close"
-                        onClick={() => setOpen(false)}
+                        onClick={() => {
+                          setOpen(false);
+                        }}
                       />
                       {children}
                     </div>

@@ -1,15 +1,16 @@
-import React, { FC } from "react";
+import React, { type FC } from "react";
 import styled from "styled-components";
+
 import { Text } from "~components/Text";
 
 import { Icon } from "../Icon";
 
-export type BreadcrumbItemData = {
+export interface BreadcrumbItemData {
   label: string;
   path: string;
-};
+}
 
-export type BreadcrumbProps = {
+export interface BreadcrumbProps {
   /**
    * List of breadcrumb items
    */
@@ -23,7 +24,7 @@ export type BreadcrumbProps = {
    */
   renderLink: (path: string, children: JSX.Element) => JSX.Element;
   className?: string;
-};
+}
 
 const BreadcrumbRoot = styled.div`
   display: inline-flex;

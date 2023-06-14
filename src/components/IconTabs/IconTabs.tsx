@@ -1,6 +1,7 @@
-import { FC } from "react";
+import { type FC } from "react";
 import styled from "styled-components";
-import { Icon, IconName } from "~components/Icon";
+
+import { Icon, type IconName } from "~components/Icon";
 
 import { IconTab } from "./IconTab";
 
@@ -10,13 +11,13 @@ interface TabData {
   icon: IconName;
 }
 
-export type IconTabsProps = {
+export interface IconTabsProps {
   tabs: TabData[];
   selected: string | number;
   onSelect?: (id: string | number) => void;
   variant?: "vertical" | "horizontal";
   className?: string;
-};
+}
 
 const IconTabsContainer = styled.div<Pick<IconTabsProps, "variant">>`
   display: flex;

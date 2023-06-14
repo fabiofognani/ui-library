@@ -1,6 +1,7 @@
-import { FC } from "react";
+import { type FC } from "react";
 import styled, { css } from "styled-components";
-import { Icon, IconName } from "~components/Icon";
+
+import { Icon, type IconName } from "~components/Icon";
 import { Text } from "~components/Text";
 import { mqUntil } from "~styles/media-queries";
 

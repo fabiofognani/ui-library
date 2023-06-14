@@ -1,5 +1,6 @@
-import { FC } from "react";
+import { type FC } from "react";
 import styled, { css } from "styled-components";
+
 import { mqUntil } from "~styles";
 
 import { Tab } from "./Tab";
@@ -9,11 +10,11 @@ interface TabData {
   label: string;
 }
 
-export type TabsProps = {
+export interface TabsProps {
   tabs: TabData[];
   selected: string | number;
   onSelect?: (id: string | number) => void;
-};
+}
 
 const TabsContainer = styled.div`
   display: flex;

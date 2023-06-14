@@ -1,5 +1,5 @@
-import { FC, PropsWithChildren } from "react";
-import { DefaultTheme, ThemeProvider } from "styled-components";
+import { type FC, type PropsWithChildren } from "react";
+import { type DefaultTheme, ThemeProvider } from "styled-components";
 
 import { hsdTheme } from "./hsd-theme";
 

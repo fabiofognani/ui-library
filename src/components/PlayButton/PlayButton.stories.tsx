@@ -1,5 +1,6 @@
-import { Meta, StoryObj } from "@storybook/react";
+import { type Meta, type StoryObj } from "@storybook/react";
 import { userEvent, within } from "@storybook/testing-library";
+
 import { BackgroundDecorator } from "~stories/decorators";
 
 import { PlayButton } from "./PlayButton";

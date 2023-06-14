@@ -1,5 +1,6 @@
-import { Meta, StoryObj } from "@storybook/react";
+import { type Meta, type StoryObj } from "@storybook/react";
 import styled from "styled-components";
+
 import { BackgroundDecorator } from "~stories/decorators";
 
 import { Breadcrumb } from "./Breadcrumb";

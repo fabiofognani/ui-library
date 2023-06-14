@@ -1,4 +1,4 @@
-export type MenuPanelItem = {
+export interface MenuPanelItem {
   /**
    * Menu item label
    */
@@ -18,9 +18,9 @@ export type MenuPanelItem = {
    * **Note:** At the moment this is supported only by `dark` menu variant
    */
   small?: boolean;
-};
+}
 
-export type MenuPanelProps = {
+export interface MenuPanelProps {
   className?: string;
   /**
    * Array of menu items
@@ -46,4 +46,4 @@ export type MenuPanelProps = {
    * Panel close button click callback
    */
   onClose?: () => void;
-};
+}

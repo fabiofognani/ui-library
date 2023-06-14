@@ -1,9 +1,10 @@
-import { FC, useState } from "react";
+import { type FC, useState } from "react";
 import styled, { css } from "styled-components";
-import { Button, ButtonProps } from "~components/Button";
+
+import { Button, type ButtonProps } from "~components/Button";
 import { inputStyles } from "~styles/input-styles";
 
-export type InputProps = {
+export interface InputProps {
   /**
    * Input placeholder shown when has no value
    */
@@ -49,7 +50,7 @@ export type InputProps = {
      */
     testId?: string;
   } & Pick<ButtonProps, "type">;
-};
+}
 
 const StyledInput = styled.input<Pick<InputProps, "shadow" | "withButton">>`
   ${(props) => inputStyles(props.shadow)}
@@ -115,8 +116,12 @@ export const Input: FC<InputProps> = ({ testId, defaultValue = "", onChange, ...
     <InputContainer shadow={props.shadow} hasFocus={focus} border={props.border}>
       <StyledInput
         {...props}
-        onFocus={() => setFocus(true)}
-        onBlur={() => setFocus(false)}
+        onFocus={() => {
+          setFocus(true);
+        }}
+        onBlur={() => {
+          setFocus(false);
+        }}
         onChange={handleChange}
         data-testid={testId}
       />

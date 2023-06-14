@@ -1,8 +1,8 @@
 import styled, { css } from "styled-components";
 
-type Props = {
+interface Props {
   selected?: boolean;
-};
+}
 
 export const IconTab = styled.button<Props>`
   display: inline-flex;

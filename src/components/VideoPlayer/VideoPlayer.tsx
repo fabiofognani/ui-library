@@ -1,5 +1,6 @@
-import { createRef, FC, useState } from "react";
+import { createRef, type FC, useState } from "react";
 import styled, { css } from "styled-components";
+
 import { PlayButton } from "~components/PlayButton";
 import { mqUntil } from "~styles";
 
@@ -103,8 +104,12 @@ export const VideoPlayer: FC<VideoPlayerProps> = ({
     <VideoPlayerRoot data-testid={testId} {...props}>
       <PauseAction isPlaying={isVideoPlaying} onClick={handlePause} data-testid={`pause-action`} />
       <StyledVideo
-        onPlaying={() => setIsVideoPlaying(true)}
-        onPause={() => setIsVideoPlaying(false)}
+        onPlaying={() => {
+          setIsVideoPlaying(true);
+        }}
+        onPause={() => {
+          setIsVideoPlaying(false);
+        }}
         ref={videoRef}
         controls={false}
         playsInline
@@ -112,7 +117,7 @@ export const VideoPlayer: FC<VideoPlayerProps> = ({
         variant={variant}
         autoPlay={autoPlay}
       >
-        <source src={url} type={mimeType || "video/mp4"} />
+        <source src={url} type={mimeType ?? "video/mp4"} />
         Your browser does not support HTML video.
       </StyledVideo>
 

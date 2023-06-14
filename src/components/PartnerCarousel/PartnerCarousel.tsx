@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
-import { FC } from "react";
+import { type FC } from "react";
 import styled, { css } from "styled-components";
+
 import { Text } from "~components/Text";
 import { useRefWithCallback } from "~hooks";
 import { mqUntil } from "~styles/media-queries";

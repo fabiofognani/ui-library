@@ -1,7 +1,7 @@
 import { HTMLMotionProps, wrap } from "framer-motion";
 import { useMemo, useState } from "react";
 
-import { ItemPosition, ItemProps } from "./itemProps";
+import { ItemPosition, ItemProps } from "./types";
 
 export function useProductCarousel<T extends object>(items: T[]) {
   const adaptedItems = useMemo(() => [...items, ...items, ...items], [items]);

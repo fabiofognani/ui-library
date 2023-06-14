@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import styled, { css } from "styled-components";
 import { mqUntil } from "~styles";
 
-import { ItemProps } from "./itemProps";
+import { ItemProps } from "./types";
 
 export const ItemImage = styled(motion.div)<ItemProps>`
   position: absolute;

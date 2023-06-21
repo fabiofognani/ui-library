@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 import { IconButton } from "~components/IconButton";
 
-interface Props {
+export interface CarouselControlsProps {
   onPrev?: () => void;
   onNext?: () => void;
 }
@@ -16,7 +16,7 @@ const ControlsRoot = styled.div`
   }
 `;
 
-const CarouselControls: FC<Props> = ({ onPrev, onNext }) => {
+const CarouselControls: FC<CarouselControlsProps> = ({ onPrev, onNext }) => {
   return (
     <ControlsRoot>
       <IconButton

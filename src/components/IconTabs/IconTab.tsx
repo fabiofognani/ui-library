@@ -1,10 +1,10 @@
 import styled, { css } from "styled-components";
 
-interface Props {
+export interface IconTabProps {
   selected?: boolean;
 }
 
-export const IconTab = styled.button<Props>`
+export const IconTab = styled.button<IconTabProps>`
   display: inline-flex;
   justify-content: center;
   align-items: center;

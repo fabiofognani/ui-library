@@ -1,11 +1,11 @@
 import styled, { css } from "styled-components";
 
-interface Props {
+export interface TabProps {
   selected?: boolean;
   onClick?: () => void;
 }
 
-export const Tab = styled.button<Props>`
+export const Tab = styled.button<TabProps>`
   display: inline-flex;
   justify-content: center;
   align-items: center;

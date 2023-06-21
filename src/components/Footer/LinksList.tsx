@@ -6,7 +6,7 @@ import { Text } from "~components/Text";
 import { Title } from "~components/Title";
 import { mqUntil } from "~styles";
 
-interface LinkListElement {
+export interface LinkListElement {
   /**
    * Link text
    */

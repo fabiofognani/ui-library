@@ -70,7 +70,7 @@ const CardContainer = styled.div`
   }
 `;
 
-interface HorizontalCardProps {
+export interface HorizontalCardProps {
   /** Card title */
   title: string;
   /** Card icon (above title) */

@@ -5,14 +5,14 @@ import { Icon, type IconName } from "~components/Icon";
 
 import { IconTab } from "./IconTab";
 
-interface TabData {
+export interface IconTabData {
   id: string | number;
   ariaLabel: string;
   icon: IconName;
 }
 
 export interface IconTabsProps {
-  tabs: TabData[];
+  tabs: IconTabData[];
   selected: string | number;
   onSelect?: (id: string | number) => void;
   variant?: "vertical" | "horizontal";

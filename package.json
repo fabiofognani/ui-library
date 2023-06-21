@@ -3,7 +3,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/fabiofognani"
   },
-  "version": "0.0.11",
+  "version": "0.0.16",
   "description": "",
   "author": "Fabio Fognani",
   "license": "ISC",
@@ -83,6 +83,7 @@
     "react-test-renderer": "^18.2.0",
     "rimraf": "^5.0.1",
     "rollup": "^3.24.0",
+    "rollup-plugin-copy": "^3.4.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-postcss": "^4.0.2",
     "rollup-plugin-tsconfig-paths": "^1.5.1",

@@ -19,11 +19,11 @@ const ItemDetailInner = styled(motion.div)`
   )}
 `;
 
-interface Props {
+export interface ItemDetailProps {
   uniqueId: React.Key;
 }
 
-export const ItemDetail: FC<PropsWithChildren<Props>> = ({ uniqueId, children }) => {
+export const ItemDetail: FC<PropsWithChildren<ItemDetailProps>> = ({ uniqueId, children }) => {
   return (
     <ItemDetailInner
       variants={detailVariants}

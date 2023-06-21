@@ -12,7 +12,7 @@ import { ProductCarousel } from "./ProductCarousel";
 
 type SampleProductTag = "stone" | "metal" | "glass" | "wood" | "composite";
 
-interface SampleProduct {
+export interface SampleProduct {
   code: string;
   name: string;
   description: string;

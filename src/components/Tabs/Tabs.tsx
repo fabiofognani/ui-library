@@ -5,7 +5,7 @@ import { mqUntil } from "~styles";
 
 import { Tab } from "./Tab";
 
-interface TabData {
+export interface TabData {
   id: string | number;
   label: string;
 }

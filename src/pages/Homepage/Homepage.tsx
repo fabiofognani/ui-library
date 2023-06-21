@@ -14,7 +14,7 @@ import {
   type StripThreeColsProps,
 } from "~components";
 
-interface Props {
+export interface HomepageProps {
   headerProps: HeaderProps;
   heroCarouselProps: HeroCarouselProps;
   stripThreeColsProps: StripThreeColsProps;
@@ -34,7 +34,7 @@ const Section = styled.div`
   margin: 80px 0;
 `;
 
-const Homepage: FC<Props> = ({
+const Homepage: FC<HomepageProps> = ({
   headerProps,
   heroCarouselProps,
   stripThreeColsProps,

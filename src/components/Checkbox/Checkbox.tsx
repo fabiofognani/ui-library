@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 import { Text } from "~components/Text";
 
-export interface Props {
+export interface CheckboxProps {
   /**
    * Optional component class name
    */
@@ -50,7 +50,7 @@ const HiddenInput = styled.input`
   display: none;
 `;
 
-export const Checkbox: FC<Props> = ({
+export const Checkbox: FC<CheckboxProps> = ({
   testId,
   value = false,
   onChange,

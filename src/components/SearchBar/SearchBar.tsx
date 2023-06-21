@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 import { Icon } from "~components/Icon";
 
-interface SearchBarProps {
+export interface SearchBarProps {
   /**
    * Input placeholder
    */
